@@ -6,14 +6,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class Suggestion : AppCompatActivity() {
+class Account : AppCompatActivity() {
     private val bn: BottomNavigationView by lazy {
         findViewById(R.id.bottom_navigation)
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_suggestion)
-
+        setContentView(R.layout.activity_account)
         bn.setOnNavigationItemSelectedListener{
             when(it.itemId){
                 R.id.ic_home -> {

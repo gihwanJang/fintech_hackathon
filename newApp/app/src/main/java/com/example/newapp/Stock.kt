@@ -1,5 +1,6 @@
 package com.example.newapp
 
+import android.app.ActivityOptions
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -17,19 +18,19 @@ class Stock : AppCompatActivity() {
             when(it.itemId){
                 R.id.ic_home -> {
                     val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
                 }
                 R.id.ic_rate -> {
                     val intent = Intent(this, Rate::class.java)
-                    startActivity(intent)
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
                 }
                 R.id.ic_suggestion ->{
                     val intent = Intent(this, Suggestion::class.java)
-                    startActivity(intent)
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
                 }
                 R.id.ic_stock ->{
                     val intent = Intent(this, Stock::class.java)
-                    startActivity(intent)
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
                 }
             }
             true

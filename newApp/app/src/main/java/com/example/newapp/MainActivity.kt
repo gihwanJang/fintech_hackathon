@@ -1,5 +1,6 @@
 package com.example.newapp
 
+import android.app.ActivityOptions
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
@@ -26,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        listButton = findViewById(R.id.list_button)
         pieChart = findViewById(R.id.pieChart)
         pieChart2 = findViewById(R.id.pieChart2)
         initPieChart()
@@ -33,23 +35,27 @@ class MainActivity : AppCompatActivity() {
         setDataToPieChart()
         setDataToPieChart2()
 
+        listButton.setOnClickListener {
+            val intent = Intent(this,Account::class.java)
+            startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
+        }
         bn.setOnNavigationItemSelectedListener{
             when(it.itemId){
                 R.id.ic_home -> {
                     val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
                 }
                 R.id.ic_rate -> {
                     val intent = Intent(this, Rate::class.java)
-                    startActivity(intent)
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
                 }
                 R.id.ic_suggestion ->{
                     val intent = Intent(this, Suggestion::class.java)
-                    startActivity(intent)
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
                 }
                 R.id.ic_stock ->{
                     val intent = Intent(this, Stock::class.java)
-                    startActivity(intent)
+                    startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
                 }
             }
             true
