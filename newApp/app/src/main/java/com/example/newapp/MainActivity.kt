@@ -22,7 +22,6 @@ import org.json.JSONArray
 import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
-    private  lateinit var listButton: Button
     private lateinit var pieChart: PieChart
     private lateinit var pieChart2: PieChart
     private val bn: BottomNavigationView by lazy {
@@ -32,7 +31,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //listButton = findViewById(R.id.account_button)
         pieChart = findViewById(R.id.pieChart)
         pieChart2 = findViewById(R.id.pieChart2)
         initPieChart()
@@ -46,12 +44,12 @@ class MainActivity : AppCompatActivity() {
         val listView = findViewById<ListView>(R.id.listView)
 
         listView.adapter = adapter;
-        /*
-        listButton.setOnClickListener {
-            val intent = Intent(this,Account::class.java)
-            startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
+
+        listView.setOnItemClickListener { parent, view, position, id ->
+            val element = adapter.DataList
+            val intent = Intent(this, Account::class.java)
+            startActivity(intent)
         }
-        */
 
         bn.setOnNavigationItemSelectedListener{
             when(it.itemId){

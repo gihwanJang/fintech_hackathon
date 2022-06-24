@@ -1,300 +1,4034 @@
 {"account": [
   {
-    "bank_code_tran": "188",
+    "account_number": "949-925-557326",
+    "bank_code_tran": "020",
     "bank_name": "우리은행",
     "res_list": [
       {
-        "tran_date": "210824707-07-30",
+        "tran_date": "2022-03-02",
         "tran_type": "현금",
-        "after_balance_amt": 31000,
+        "after_balance_amt": 990000,
         "inout_type": "출금",
-        "printed_content": "고기,원칙",
-        "branchName": "천안성성점",
-        "tran_time": "170550",
-        "tran_amt": -2000
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "143144",
+        "tran_amt": -10000
       },
       {
-        "tran_date": "268652764-03-25",
+        "tran_date": "2022-03-04",
         "tran_type": "현금",
-        "after_balance_amt": 28800,
+        "after_balance_amt": 981400,
         "inout_type": "출금",
-        "printed_content": "타이거슈가",
-        "branchName": "천안차암점",
-        "tran_time": "180530",
-        "tran_amt": -4200
-      },
-      {
-        "tran_date": "270142004-02-11",
-        "tran_type": "현금",
-        "after_balance_amt": 27100,
-        "inout_type": "출금",
-        "printed_content": "1943",
-        "branchName": "천안두정역점",
-        "tran_time": "031958",
-        "tran_amt": -5900
-      },
-      {
-        "tran_date": "275040733-12-23",
-        "tran_type": "현금",
-        "after_balance_amt": 28200,
-        "inout_type": "출금",
-        "printed_content": "60계",
-        "branchName": "천안차암점",
-        "tran_time": "172228",
-        "tran_amt": -4800
-      }
-    ],
-    "balance_amt": 33000
-  },
-  {
-    "bank_code_tran": "609",
-    "bank_name": "신한은행",
-    "res_list": [
-      {
-        "tran_date": "162985207-01-31",
-        "tran_type": "현금",
-        "after_balance_amt": 84400,
-        "inout_type": "출금",
-        "printed_content": "1943",
-        "branchName": "천안성성점",
-        "tran_time": "044309",
-        "tran_amt": -600
-      },
-      {
-        "tran_date": "289912046-05-20",
-        "tran_type": "현금",
-        "after_balance_amt": 81200,
-        "inout_type": "출금",
-        "printed_content": "1943",
-        "branchName": "천안봉명점",
-        "tran_time": "190520",
-        "tran_amt": -3800
-      }
-    ],
-    "balance_amt": 85000
-  },
-  {
-    "bank_code_tran": "006",
-    "bank_name": "국민은행",
-    "res_list": [
-      {
-        "tran_date": "70629447-01-05",
-        "tran_type": "현금",
-        "after_balance_amt": 49500,
-        "inout_type": "출금",
-        "printed_content": "60계",
-        "branchName": "천안남서울대점",
-        "tran_time": "193852",
-        "tran_amt": -5500
-      },
-      {
-        "tran_date": "252896939-02-04",
-        "tran_type": "현금",
-        "after_balance_amt": 50400,
-        "inout_type": "출금",
-        "printed_content": "피자나라 치킨공주",
-        "branchName": "천안차암점",
-        "tran_time": "165838",
-        "tran_amt": -4600
-      },
-      {
-        "tran_date": "256205829-12-23",
-        "tran_type": "현금",
-        "after_balance_amt": 51500,
-        "inout_type": "출금",
-        "printed_content": "노랑통닭",
-        "branchName": "천안두정역점",
-        "tran_time": "173436",
-        "tran_amt": -3500
-      },
-      {
-        "tran_date": "260938079-12-01",
-        "tran_type": "현금",
-        "after_balance_amt": 49600,
-        "inout_type": "출금",
-        "printed_content": "피자나라 치킨공주",
-        "branchName": "천안남서울대점",
-        "tran_time": "064147",
-        "tran_amt": -5400
-      },
-      {
-        "tran_date": "270138599-11-04",
-        "tran_type": "현금",
-        "after_balance_amt": 48900,
-        "inout_type": "출금",
-        "printed_content": "빽다방",
-        "branchName": "천안봉명점",
-        "tran_time": "071424",
-        "tran_amt": -6100
-      },
-      {
-        "tran_date": "275256601-06-01",
-        "tran_type": "현금",
-        "after_balance_amt": 50500,
-        "inout_type": "출금",
-        "printed_content": "에그드랍",
-        "branchName": "천안차암점",
-        "tran_time": "172951",
-        "tran_amt": -4500
-      },
-      {
-        "tran_date": "289467068-09-15",
-        "tran_type": "현금",
-        "after_balance_amt": 47800,
-        "inout_type": "출금",
-        "printed_content": "피자나라 치킨공주",
-        "branchName": "천안남서울대점",
-        "tran_time": "162459",
-        "tran_amt": -7200
-      },
-      {
-        "tran_date": "291093621-11-12",
-        "tran_type": "현금",
-        "after_balance_amt": 45700,
-        "inout_type": "출금",
-        "printed_content": "빽다방",
-        "branchName": "천안봉명점",
-        "tran_time": "125458",
-        "tran_amt": -9300
-      },
-      {
-        "tran_date": "292033481-02-14",
-        "tran_type": "현금",
-        "after_balance_amt": 52000,
-        "inout_type": "출금",
-        "printed_content": "피자나라 치킨공주",
-        "branchName": "천안차암점",
-        "tran_time": "134947",
-        "tran_amt": -3000
-      },
-      {
-        "tran_date": "292278483-09-10",
-        "tran_type": "현금",
-        "after_balance_amt": 45500,
-        "inout_type": "출금",
-        "printed_content": "타이거슈가",
-        "branchName": "천안봉명점",
-        "tran_time": "053050",
-        "tran_amt": -9500
-      },
-      {
-        "tran_date": "292278991-05-10",
-        "tran_type": "현금",
-        "after_balance_amt": 48200,
-        "inout_type": "출금",
-        "printed_content": "60계",
-        "branchName": "천안남서울대점",
-        "tran_time": "130621",
-        "tran_amt": -6800
-      }
-    ],
-    "balance_amt": 55000
-  },
-  {
-    "bank_code_tran": "672",
-    "bank_name": "토스뱅크",
-    "res_list": [
-      {
-        "tran_date": "1762574-10-27",
-        "tran_type": "현금",
-        "after_balance_amt": 54400,
-        "inout_type": "출금",
-        "printed_content": "화로상회",
-        "branchName": "천안남서울대점",
-        "tran_time": "224424",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "180604",
         "tran_amt": -8600
       },
       {
-        "tran_date": "110892294-12-18",
+        "tran_date": "2022-03-05",
         "tran_type": "현금",
-        "after_balance_amt": 58900,
+        "after_balance_amt": 975400,
         "inout_type": "출금",
-        "printed_content": "에그드랍",
-        "branchName": "천안불당파크점",
-        "tran_time": "185714",
-        "tran_amt": -4100
+        "printed_content": "PAYCO결제",
+        "branchName": "",
+        "tran_time": "130503",
+        "tran_amt": -6000
       },
       {
-        "tran_date": "256895664-06-04",
+        "tran_date": "2022-03-07",
         "tran_type": "현금",
-        "after_balance_amt": 57800,
+        "after_balance_amt": 971100,
         "inout_type": "출금",
-        "printed_content": "이차돌",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "054200",
+        "tran_amt": -4300
+      },
+      {
+        "tran_date": "2022-03-07",
+        "tran_type": "현금",
+        "after_balance_amt": 965700,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
         "branchName": "천안남서울대점",
-        "tran_time": "073100",
+        "tran_time": "235132",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-03-09",
+        "tran_type": "현금",
+        "after_balance_amt": 960500,
+        "inout_type": "출금",
+        "printed_content": "미니스톡",
+        "branchName": "천안남서울대점",
+        "tran_time": "142040",
         "tran_amt": -5200
       },
       {
-        "tran_date": "289459615-12-14",
+        "tran_date": "2022-03-09",
         "tran_type": "현금",
-        "after_balance_amt": 57600,
+        "after_balance_amt": 955900,
         "inout_type": "출금",
-        "printed_content": "에그드랍",
-        "branchName": "천안두정역점",
-        "tran_time": "084007",
-        "tran_amt": -5400
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "205403",
+        "tran_amt": -4600
       },
       {
-        "tran_date": "290200998-06-24",
+        "tran_date": "2022-03-10",
         "tran_type": "현금",
-        "after_balance_amt": 59300,
+        "after_balance_amt": 954800,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안봉명점",
+        "tran_time": "165031",
+        "tran_amt": -1100
+      },
+      {
+        "tran_date": "2022-03-11",
+        "tran_type": "현금",
+        "after_balance_amt": 945400,
         "inout_type": "출금",
         "printed_content": "화로상회",
-        "branchName": "천안남서울대점",
-        "tran_time": "001127",
-        "tran_amt": -3700
+        "branchName": "천안봉명점",
+        "tran_time": "195137",
+        "tran_amt": -9400
       },
       {
-        "tran_date": "292194278-11-07",
+        "tran_date": "2022-03-13",
         "tran_type": "현금",
-        "after_balance_amt": 54500,
+        "after_balance_amt": 944700,
         "inout_type": "출금",
-        "printed_content": "빽다방",
-        "branchName": "천안남서울대점",
-        "tran_time": "055019",
-        "tran_amt": -8500
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "165544",
+        "tran_amt": -700
       },
       {
-        "tran_date": "292230903-04-26",
+        "tran_date": "2022-03-15",
         "tran_type": "현금",
-        "after_balance_amt": 54400,
+        "after_balance_amt": 944500,
         "inout_type": "출금",
-        "printed_content": "맛없으면 환불해주는 장군집",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안봉명점",
+        "tran_time": "043007",
+        "tran_amt": -200
+      },
+      {
+        "tran_date": "2022-03-15",
+        "tran_type": "현금",
+        "after_balance_amt": 937100,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "085336",
+        "tran_amt": -7400
+      },
+      {
+        "tran_date": "2022-03-17",
+        "tran_type": "현금",
+        "after_balance_amt": 929500,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
         "branchName": "천안불당파크점",
-        "tran_time": "011533",
+        "tran_time": "070758",
+        "tran_amt": -7600
+      },
+      {
+        "tran_date": "2022-03-17",
+        "tran_type": "현금",
+        "after_balance_amt": 923400,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "171840",
+        "tran_amt": -6100
+      },
+      {
+        "tran_date": "2022-03-19",
+        "tran_type": "현금",
+        "after_balance_amt": 921700,
+        "inout_type": "출금",
+        "printed_content": "공차",
+        "branchName": "천안남서울대점",
+        "tran_time": "132156",
+        "tran_amt": -1700
+      },
+      {
+        "tran_date": "2022-03-20",
+        "tran_type": "현금",
+        "after_balance_amt": 921000,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안성성점",
+        "tran_time": "101650",
+        "tran_amt": -700
+      },
+      {
+        "tran_date": "2022-03-21",
+        "tran_type": "현금",
+        "after_balance_amt": 914700,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "163755",
+        "tran_amt": -6300
+      },
+      {
+        "tran_date": "2022-03-22",
+        "tran_type": "현금",
+        "after_balance_amt": 906600,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안성성점",
+        "tran_time": "002106",
+        "tran_amt": -8100
+      },
+      {
+        "tran_date": "2022-03-24",
+        "tran_type": "현금",
+        "after_balance_amt": 899200,
+        "inout_type": "출금",
+        "printed_content": "CU",
+        "branchName": "천안두정역점",
+        "tran_time": "031430",
+        "tran_amt": -7400
+      },
+      {
+        "tran_date": "2022-03-24",
+        "tran_type": "현금",
+        "after_balance_amt": 898700,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "121516",
+        "tran_amt": -500
+      },
+      {
+        "tran_date": "2022-03-25",
+        "tran_type": "현금",
+        "after_balance_amt": 898500,
+        "inout_type": "출금",
+        "printed_content": "고기,원칙",
+        "branchName": "천안불당파크점",
+        "tran_time": "185314",
+        "tran_amt": -200
+      },
+      {
+        "tran_date": "2022-03-25",
+        "tran_type": "현금",
+        "after_balance_amt": 892300,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "235629",
+        "tran_amt": -6200
+      },
+      {
+        "tran_date": "2022-03-28",
+        "tran_type": "현금",
+        "after_balance_amt": 885400,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "015156",
+        "tran_amt": -6900
+      },
+      {
+        "tran_date": "2022-03-30",
+        "tran_type": "현금",
+        "after_balance_amt": 878200,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "032427",
+        "tran_amt": -7200
+      },
+      {
+        "tran_date": "2022-03-30",
+        "tran_type": "현금",
+        "after_balance_amt": 869800,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "123311",
+        "tran_amt": -8400
+      },
+      {
+        "tran_date": "2022-03-31",
+        "tran_type": "현금",
+        "after_balance_amt": 861400,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안남서울대점",
+        "tran_time": "222729",
+        "tran_amt": -8400
+      },
+      {
+        "tran_date": "2022-04-01",
+        "tran_type": "현금",
+        "after_balance_amt": 860700,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안남서울대점",
+        "tran_time": "171816",
+        "tran_amt": -700
+      },
+      {
+        "tran_date": "2022-04-02",
+        "tran_type": "현금",
+        "after_balance_amt": 857600,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안성성점",
+        "tran_time": "212725",
+        "tran_amt": -3100
+      },
+      {
+        "tran_date": "2022-04-05",
+        "tran_type": "현금",
+        "after_balance_amt": 853500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "005233",
+        "tran_amt": -4100
+      },
+      {
+        "tran_date": "2022-04-06",
+        "tran_type": "현금",
+        "after_balance_amt": 848200,
+        "inout_type": "출금",
+        "printed_content": "PAYCO결제",
+        "branchName": "",
+        "tran_time": "180713",
+        "tran_amt": -5300
+      },
+      {
+        "tran_date": "2022-04-07",
+        "tran_type": "현금",
+        "after_balance_amt": 839900,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "202628",
+        "tran_amt": -8300
+      },
+      {
+        "tran_date": "2022-04-08",
+        "tran_type": "현금",
+        "after_balance_amt": 834600,
+        "inout_type": "출금",
+        "printed_content": "미니스톡",
+        "branchName": "천안두정역점",
+        "tran_time": "073109",
+        "tran_amt": -5300
+      },
+      {
+        "tran_date": "2022-04-10",
+        "tran_type": "현금",
+        "after_balance_amt": 827500,
+        "inout_type": "출금",
+        "printed_content": "이마트24",
+        "branchName": "천안성성점",
+        "tran_time": "035444",
+        "tran_amt": -7100
+      },
+      {
+        "tran_date": "2022-04-10",
+        "tran_type": "현금",
+        "after_balance_amt": 822700,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안두정역점",
+        "tran_time": "180644",
+        "tran_amt": -4800
+      },
+      {
+        "tran_date": "2022-04-11",
+        "tran_type": "현금",
+        "after_balance_amt": 815500,
+        "inout_type": "출금",
+        "printed_content": "역전국밥",
+        "branchName": "천안차암점",
+        "tran_time": "015353",
+        "tran_amt": -7200
+      },
+      {
+        "tran_date": "2022-04-11",
+        "tran_type": "현금",
+        "after_balance_amt": 814700,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안차암점",
+        "tran_time": "235500",
+        "tran_amt": -800
+      },
+      {
+        "tran_date": "2022-04-12",
+        "tran_type": "현금",
+        "after_balance_amt": 812400,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "164403",
+        "tran_amt": -2300
+      },
+      {
+        "tran_date": "2022-04-13",
+        "tran_type": "현금",
+        "after_balance_amt": 804200,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "144901",
+        "tran_amt": -8200
+      },
+      {
+        "tran_date": "2022-04-14",
+        "tran_type": "현금",
+        "after_balance_amt": 802800,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "132703",
+        "tran_amt": -1400
+      },
+      {
+        "tran_date": "2022-04-14",
+        "tran_type": "현금",
+        "after_balance_amt": 794100,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안봉명점",
+        "tran_time": "204143",
+        "tran_amt": -8700
+      },
+      {
+        "tran_date": "2022-04-15",
+        "tran_type": "현금",
+        "after_balance_amt": 792800,
+        "inout_type": "출금",
+        "printed_content": "타이거슈가",
+        "branchName": "천안남서울대점",
+        "tran_time": "060649",
+        "tran_amt": -1300
+      },
+      {
+        "tran_date": "2022-04-17",
+        "tran_type": "현금",
+        "after_balance_amt": 785800,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "035311",
+        "tran_amt": -7000
+      },
+      {
+        "tran_date": "2022-04-17",
+        "tran_type": "현금",
+        "after_balance_amt": 777200,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "225849",
         "tran_amt": -8600
       },
       {
-        "tran_date": "292259306-03-18",
+        "tran_date": "2022-04-19",
         "tran_type": "현금",
-        "after_balance_amt": 62100,
+        "after_balance_amt": 767300,
         "inout_type": "출금",
-        "printed_content": "타이거슈가",
-        "branchName": "천안두정역점",
-        "tran_time": "100430",
-        "tran_amt": -900
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "164618",
+        "tran_amt": -9900
       },
       {
-        "tran_date": "292266955-01-26",
+        "tran_date": "2022-04-21",
         "tran_type": "현금",
-        "after_balance_amt": 58300,
+        "after_balance_amt": 763900,
         "inout_type": "출금",
-        "printed_content": "써브웨이",
-        "branchName": "천안남서울대점",
-        "tran_time": "142257",
+        "printed_content": "공차",
+        "branchName": "천안봉명점",
+        "tran_time": "203534",
+        "tran_amt": -3400
+      },
+      {
+        "tran_date": "2022-04-23",
+        "tran_type": "현금",
+        "after_balance_amt": 756300,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안불당파크점",
+        "tran_time": "212940",
+        "tran_amt": -7600
+      },
+      {
+        "tran_date": "2022-04-24",
+        "tran_type": "현금",
+        "after_balance_amt": 750600,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "133937",
+        "tran_amt": -5700
+      },
+      {
+        "tran_date": "2022-04-26",
+        "tran_type": "현금",
+        "after_balance_amt": 746600,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "144322",
+        "tran_amt": -4000
+      },
+      {
+        "tran_date": "2022-04-28",
+        "tran_type": "현금",
+        "after_balance_amt": 739800,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "150004",
+        "tran_amt": -6800
+      },
+      {
+        "tran_date": "2022-04-29",
+        "tran_type": "현금",
+        "after_balance_amt": 732300,
+        "inout_type": "출금",
+        "printed_content": "이차돌",
+        "branchName": "천안성성점",
+        "tran_time": "174934",
+        "tran_amt": -7500
+      },
+      {
+        "tran_date": "2022-05-01",
+        "tran_type": "현금",
+        "after_balance_amt": 727400,
+        "inout_type": "출금",
+        "printed_content": "해외결제",
+        "branchName": "",
+        "tran_time": "143016",
+        "tran_amt": -4900
+      },
+      {
+        "tran_date": "2022-05-03",
+        "tran_type": "현금",
+        "after_balance_amt": 725300,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "040031",
+        "tran_amt": -2100
+      },
+      {
+        "tran_date": "2022-05-03",
+        "tran_type": "현금",
+        "after_balance_amt": 719600,
+        "inout_type": "출금",
+        "printed_content": "신전떡볶이",
+        "branchName": "천안봉명점",
+        "tran_time": "094112",
+        "tran_amt": -5700
+      },
+      {
+        "tran_date": "2022-05-04",
+        "tran_type": "현금",
+        "after_balance_amt": 713100,
+        "inout_type": "출금",
+        "printed_content": "문선호",
+        "branchName": "",
+        "tran_time": "103531",
+        "tran_amt": -6500
+      },
+      {
+        "tran_date": "2022-05-05",
+        "tran_type": "현금",
+        "after_balance_amt": 711700,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "175143",
+        "tran_amt": -1400
+      },
+      {
+        "tran_date": "2022-05-06",
+        "tran_type": "현금",
+        "after_balance_amt": 701700,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안두정역점",
+        "tran_time": "212925",
+        "tran_amt": -10000
+      },
+      {
+        "tran_date": "2022-05-08",
+        "tran_type": "현금",
+        "after_balance_amt": 694800,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "221326",
+        "tran_amt": -6900
+      },
+      {
+        "tran_date": "2022-05-10",
+        "tran_type": "현금",
+        "after_balance_amt": 687800,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "210550",
+        "tran_amt": -7000
+      },
+      {
+        "tran_date": "2022-05-12",
+        "tran_type": "현금",
+        "after_balance_amt": 681600,
+        "inout_type": "출금",
+        "printed_content": "하이마트",
+        "branchName": "천안성성점",
+        "tran_time": "024204",
+        "tran_amt": -6200
+      },
+      {
+        "tran_date": "2022-05-14",
+        "tran_type": "현금",
+        "after_balance_amt": 676500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "055706",
+        "tran_amt": -5100
+      },
+      {
+        "tran_date": "2022-05-14",
+        "tran_type": "현금",
+        "after_balance_amt": 670200,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안차암점",
+        "tran_time": "234138",
+        "tran_amt": -6300
+      },
+      {
+        "tran_date": "2022-05-16",
+        "tran_type": "현금",
+        "after_balance_amt": 665500,
+        "inout_type": "출금",
+        "printed_content": "에그드랍",
+        "branchName": "천안봉명점",
+        "tran_time": "185632",
         "tran_amt": -4700
       },
       {
-        "tran_date": "292271191-11-18",
+        "tran_date": "2022-05-17",
         "tran_type": "현금",
-        "after_balance_amt": 56200,
+        "after_balance_amt": 659900,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "151407",
+        "tran_amt": -5600
+      },
+      {
+        "tran_date": "2022-05-17",
+        "tran_type": "현금",
+        "after_balance_amt": 659600,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안차암점",
+        "tran_time": "193831",
+        "tran_amt": -300
+      },
+      {
+        "tran_date": "2022-05-19",
+        "tran_type": "현금",
+        "after_balance_amt": 652900,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "063210",
+        "tran_amt": -6700
+      },
+      {
+        "tran_date": "2022-05-21",
+        "tran_type": "현금",
+        "after_balance_amt": 643500,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "023527",
+        "tran_amt": -9400
+      },
+      {
+        "tran_date": "2022-05-21",
+        "tran_type": "현금",
+        "after_balance_amt": 636900,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안차암점",
+        "tran_time": "193826",
+        "tran_amt": -6600
+      },
+      {
+        "tran_date": "2022-05-23",
+        "tran_type": "현금",
+        "after_balance_amt": 636400,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안두정역점",
+        "tran_time": "225957",
+        "tran_amt": -500
+      },
+      {
+        "tran_date": "2022-05-25",
+        "tran_type": "현금",
+        "after_balance_amt": 629500,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "173019",
+        "tran_amt": -6900
+      },
+      {
+        "tran_date": "2022-05-25",
+        "tran_type": "현금",
+        "after_balance_amt": 620700,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안두정역점",
+        "tran_time": "234156",
+        "tran_amt": -8800
+      },
+      {
+        "tran_date": "2022-05-27",
+        "tran_type": "현금",
+        "after_balance_amt": 619600,
+        "inout_type": "출금",
+        "printed_content": "한상준",
+        "branchName": "",
+        "tran_time": "224430",
+        "tran_amt": -1100
+      },
+      {
+        "tran_date": "2022-05-29",
+        "tran_type": "현금",
+        "after_balance_amt": 612500,
+        "inout_type": "출금",
+        "printed_content": "롯데리아",
+        "branchName": "천안성성점",
+        "tran_time": "021037",
+        "tran_amt": -7100
+      },
+      {
+        "tran_date": "2022-05-30",
+        "tran_type": "현금",
+        "after_balance_amt": 611700,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "075714",
+        "tran_amt": -800
+      },
+      {
+        "tran_date": "2022-05-31",
+        "tran_type": "현금",
+        "after_balance_amt": 607000,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안성성점",
+        "tran_time": "022420",
+        "tran_amt": -4700
+      },
+      {
+        "tran_date": "2022-06-01",
+        "tran_type": "현금",
+        "after_balance_amt": 604000,
+        "inout_type": "출금",
+        "printed_content": "롯데마트",
+        "branchName": "천안두정역점",
+        "tran_time": "093546",
+        "tran_amt": -3000
+      },
+      {
+        "tran_date": "2022-06-03",
+        "tran_type": "현금",
+        "after_balance_amt": 596200,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안남서울대점",
+        "tran_time": "025441",
+        "tran_amt": -7800
+      },
+      {
+        "tran_date": "2022-06-04",
+        "tran_type": "현금",
+        "after_balance_amt": 593800,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "103454",
+        "tran_amt": -2400
+      },
+      {
+        "tran_date": "2022-06-05",
+        "tran_type": "현금",
+        "after_balance_amt": 593200,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안남서울대점",
+        "tran_time": "133731",
+        "tran_amt": -600
+      },
+      {
+        "tran_date": "2022-06-06",
+        "tran_type": "현금",
+        "after_balance_amt": 587500,
+        "inout_type": "출금",
+        "printed_content": "박상윤",
+        "branchName": "",
+        "tran_time": "224949",
+        "tran_amt": -5700
+      },
+      {
+        "tran_date": "2022-06-07",
+        "tran_type": "현금",
+        "after_balance_amt": 585500,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "172852",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "2022-06-07",
+        "tran_type": "현금",
+        "after_balance_amt": 579200,
+        "inout_type": "출금",
+        "printed_content": "노랑통닭",
+        "branchName": "천안성성점",
+        "tran_time": "232428",
+        "tran_amt": -6300
+      },
+      {
+        "tran_date": "2022-06-08",
+        "tran_type": "현금",
+        "after_balance_amt": 570900,
+        "inout_type": "출금",
+        "printed_content": "이마트24",
+        "branchName": "천안두정역점",
+        "tran_time": "230533",
+        "tran_amt": -8300
+      },
+      {
+        "tran_date": "2022-06-09",
+        "tran_type": "현금",
+        "after_balance_amt": 563200,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안불당파크점",
+        "tran_time": "212611",
+        "tran_amt": -7700
+      },
+      {
+        "tran_date": "2022-06-11",
+        "tran_type": "현금",
+        "after_balance_amt": 562700,
+        "inout_type": "출금",
+        "printed_content": "60계",
+        "branchName": "천안불당파크점",
+        "tran_time": "003450",
+        "tran_amt": -500
+      },
+      {
+        "tran_date": "2022-06-11",
+        "tran_type": "현금",
+        "after_balance_amt": 558000,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "150145",
+        "tran_amt": -4700
+      },
+      {
+        "tran_date": "2022-06-12",
+        "tran_type": "현금",
+        "after_balance_amt": 552500,
+        "inout_type": "출금",
+        "printed_content": "CU",
+        "branchName": "천안불당파크점",
+        "tran_time": "170303",
+        "tran_amt": -5500
+      },
+      {
+        "tran_date": "2022-06-14",
+        "tran_type": "현금",
+        "after_balance_amt": 547100,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "121341",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-06-16",
+        "tran_type": "현금",
+        "after_balance_amt": 537500,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "024359",
+        "tran_amt": -9600
+      },
+      {
+        "tran_date": "2022-06-17",
+        "tran_type": "현금",
+        "after_balance_amt": 528100,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안두정역점",
+        "tran_time": "012240",
+        "tran_amt": -9400
+      },
+      {
+        "tran_date": "2022-06-18",
+        "tran_type": "현금",
+        "after_balance_amt": 525700,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "154226",
+        "tran_amt": -2400
+      },
+      {
+        "tran_date": "2022-06-18",
+        "tran_type": "현금",
+        "after_balance_amt": 523500,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "230341",
+        "tran_amt": -2200
+      },
+      {
+        "tran_date": "2022-06-20",
+        "tran_type": "현금",
+        "after_balance_amt": 520400,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "191807",
+        "tran_amt": -3100
+      },
+      {
+        "tran_date": "2022-06-22",
+        "tran_type": "현금",
+        "after_balance_amt": 516500,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "114002",
+        "tran_amt": -3900
+      },
+      {
+        "tran_date": "2022-06-23",
+        "tran_type": "현금",
+        "after_balance_amt": 511600,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "235532",
+        "tran_amt": -4900
+      },
+      {
+        "tran_date": "2022-06-24",
+        "tran_type": "현금",
+        "after_balance_amt": 508000,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "154838",
+        "tran_amt": -3600
+      },
+      {
+        "tran_date": "2022-06-25",
+        "tran_type": "현금",
+        "after_balance_amt": 504400,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "234904",
+        "tran_amt": -3600
+      },
+      {
+        "tran_date": "2022-06-26",
+        "tran_type": "현금",
+        "after_balance_amt": 498700,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "042824",
+        "tran_amt": -5700
+      },
+      {
+        "tran_date": "2022-06-26",
+        "tran_type": "현금",
+        "after_balance_amt": 492200,
         "inout_type": "출금",
         "printed_content": "에그드랍",
-        "branchName": "천안불당파크점",
-        "tran_time": "010307",
-        "tran_amt": -6800
+        "branchName": "천안봉명점",
+        "tran_time": "143458",
+        "tran_amt": -6500
+      },
+      {
+        "tran_date": "2022-06-27",
+        "tran_type": "현금",
+        "after_balance_amt": 487000,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안남서울대점",
+        "tran_time": "230807",
+        "tran_amt": -5200
+      },
+      {
+        "tran_date": "2022-06-29",
+        "tran_type": "현금",
+        "after_balance_amt": 484700,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "100645",
+        "tran_amt": -2300
       }
     ],
-    "balance_amt": 63000
+    "balance_amt": 484700
+  },
+  {
+    "account_number": "454-107-365566",
+    "bank_code_tran": "004",
+    "bank_name": "국민은행",
+    "res_list": [
+      {
+        "tran_date": "2022-03-02",
+        "tran_type": "현금",
+        "after_balance_amt": 994600,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "080008",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-03-02",
+        "tran_type": "현금",
+        "after_balance_amt": 990800,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안봉명점",
+        "tran_time": "200127",
+        "tran_amt": -3800
+      },
+      {
+        "tran_date": "2022-03-03",
+        "tran_type": "현금",
+        "after_balance_amt": 984700,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "065400",
+        "tran_amt": -6100
+      },
+      {
+        "tran_date": "2022-03-03",
+        "tran_type": "현금",
+        "after_balance_amt": 980600,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "132410",
+        "tran_amt": -4100
+      },
+      {
+        "tran_date": "2022-03-03",
+        "tran_type": "현금",
+        "after_balance_amt": 972900,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "172850",
+        "tran_amt": -7700
+      },
+      {
+        "tran_date": "2022-03-05",
+        "tran_type": "현금",
+        "after_balance_amt": 967500,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "010433",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-03-05",
+        "tran_type": "현금",
+        "after_balance_amt": 960900,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안남서울대점",
+        "tran_time": "162403",
+        "tran_amt": -6600
+      },
+      {
+        "tran_date": "2022-03-07",
+        "tran_type": "현금",
+        "after_balance_amt": 956200,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "003359",
+        "tran_amt": -4700
+      },
+      {
+        "tran_date": "2022-03-07",
+        "tran_type": "현금",
+        "after_balance_amt": 952000,
+        "inout_type": "출금",
+        "printed_content": "화로상회",
+        "branchName": "천안불당파크점",
+        "tran_time": "141712",
+        "tran_amt": -4200
+      },
+      {
+        "tran_date": "2022-03-09",
+        "tran_type": "현금",
+        "after_balance_amt": 950300,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "005851",
+        "tran_amt": -1700
+      },
+      {
+        "tran_date": "2022-03-10",
+        "tran_type": "현금",
+        "after_balance_amt": 941200,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안남서울대점",
+        "tran_time": "072832",
+        "tran_amt": -9100
+      },
+      {
+        "tran_date": "2022-03-11",
+        "tran_type": "현금",
+        "after_balance_amt": 939800,
+        "inout_type": "출금",
+        "printed_content": "맛없으면 환불해주는 장군집",
+        "branchName": "천안불당파크점",
+        "tran_time": "043215",
+        "tran_amt": -1400
+      },
+      {
+        "tran_date": "2022-03-12",
+        "tran_type": "현금",
+        "after_balance_amt": 930300,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "183225",
+        "tran_amt": -9500
+      },
+      {
+        "tran_date": "2022-03-13",
+        "tran_type": "현금",
+        "after_balance_amt": 922600,
+        "inout_type": "출금",
+        "printed_content": "해외결제",
+        "branchName": "",
+        "tran_time": "205517",
+        "tran_amt": -7700
+      },
+      {
+        "tran_date": "2022-03-15",
+        "tran_type": "현금",
+        "after_balance_amt": 915500,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "150229",
+        "tran_amt": -7100
+      },
+      {
+        "tran_date": "2022-03-16",
+        "tran_type": "현금",
+        "after_balance_amt": 906100,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "185444",
+        "tran_amt": -9400
+      },
+      {
+        "tran_date": "2022-03-17",
+        "tran_type": "현금",
+        "after_balance_amt": 900500,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안두정역점",
+        "tran_time": "135301",
+        "tran_amt": -5600
+      },
+      {
+        "tran_date": "2022-03-19",
+        "tran_type": "현금",
+        "after_balance_amt": 890800,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안불당파크점",
+        "tran_time": "085531",
+        "tran_amt": -9700
+      },
+      {
+        "tran_date": "2022-03-21",
+        "tran_type": "현금",
+        "after_balance_amt": 884300,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "061524",
+        "tran_amt": -6500
+      },
+      {
+        "tran_date": "2022-03-21",
+        "tran_type": "현금",
+        "after_balance_amt": 884000,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "181737",
+        "tran_amt": -300
+      },
+      {
+        "tran_date": "2022-03-23",
+        "tran_type": "현금",
+        "after_balance_amt": 879400,
+        "inout_type": "출금",
+        "printed_content": "문선호",
+        "branchName": "",
+        "tran_time": "043030",
+        "tran_amt": -4600
+      },
+      {
+        "tran_date": "2022-03-23",
+        "tran_type": "현금",
+        "after_balance_amt": 873100,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "203656",
+        "tran_amt": -6300
+      },
+      {
+        "tran_date": "2022-03-25",
+        "tran_type": "현금",
+        "after_balance_amt": 871100,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "084936",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "2022-03-27",
+        "tran_type": "현금",
+        "after_balance_amt": 869100,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "014623",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "2022-03-28",
+        "tran_type": "현금",
+        "after_balance_amt": 861100,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "165412",
+        "tran_amt": -8000
+      },
+      {
+        "tran_date": "2022-03-30",
+        "tran_type": "현금",
+        "after_balance_amt": 855800,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안차암점",
+        "tran_time": "093007",
+        "tran_amt": -5300
+      },
+      {
+        "tran_date": "2022-03-31",
+        "tran_type": "현금",
+        "after_balance_amt": 850700,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "191324",
+        "tran_amt": -5100
+      },
+      {
+        "tran_date": "2022-04-01",
+        "tran_type": "현금",
+        "after_balance_amt": 850300,
+        "inout_type": "출금",
+        "printed_content": "역전국밥",
+        "branchName": "천안불당파크점",
+        "tran_time": "221041",
+        "tran_amt": -400
+      },
+      {
+        "tran_date": "2022-04-03",
+        "tran_type": "현금",
+        "after_balance_amt": 842500,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안성성점",
+        "tran_time": "193806",
+        "tran_amt": -7800
+      },
+      {
+        "tran_date": "2022-04-05",
+        "tran_type": "현금",
+        "after_balance_amt": 837800,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안성성점",
+        "tran_time": "051543",
+        "tran_amt": -4700
+      },
+      {
+        "tran_date": "2022-04-06",
+        "tran_type": "현금",
+        "after_balance_amt": 831900,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "171047",
+        "tran_amt": -5900
+      },
+      {
+        "tran_date": "2022-04-08",
+        "tran_type": "현금",
+        "after_balance_amt": 828900,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안성성점",
+        "tran_time": "170625",
+        "tran_amt": -3000
+      },
+      {
+        "tran_date": "2022-04-10",
+        "tran_type": "현금",
+        "after_balance_amt": 828800,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안두정역점",
+        "tran_time": "010851",
+        "tran_amt": -100
+      },
+      {
+        "tran_date": "2022-04-11",
+        "tran_type": "현금",
+        "after_balance_amt": 823500,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안불당파크점",
+        "tran_time": "084332",
+        "tran_amt": -5300
+      },
+      {
+        "tran_date": "2022-04-12",
+        "tran_type": "현금",
+        "after_balance_amt": 819400,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안두정역점",
+        "tran_time": "195121",
+        "tran_amt": -4100
+      },
+      {
+        "tran_date": "2022-04-14",
+        "tran_type": "현금",
+        "after_balance_amt": 817900,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안남서울대점",
+        "tran_time": "110031",
+        "tran_amt": -1500
+      },
+      {
+        "tran_date": "2022-04-14",
+        "tran_type": "현금",
+        "after_balance_amt": 809200,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안차암점",
+        "tran_time": "211936",
+        "tran_amt": -8700
+      },
+      {
+        "tran_date": "2022-04-15",
+        "tran_type": "현금",
+        "after_balance_amt": 807300,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "190148",
+        "tran_amt": -1900
+      },
+      {
+        "tran_date": "2022-04-16",
+        "tran_type": "현금",
+        "after_balance_amt": 800000,
+        "inout_type": "출금",
+        "printed_content": "피자나라 치킨공주",
+        "branchName": "천안불당파크점",
+        "tran_time": "035228",
+        "tran_amt": -7300
+      },
+      {
+        "tran_date": "2022-04-17",
+        "tran_type": "현금",
+        "after_balance_amt": 791100,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안성성점",
+        "tran_time": "045912",
+        "tran_amt": -8900
+      },
+      {
+        "tran_date": "2022-04-17",
+        "tran_type": "현금",
+        "after_balance_amt": 790700,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "142357",
+        "tran_amt": -400
+      },
+      {
+        "tran_date": "2022-04-19",
+        "tran_type": "현금",
+        "after_balance_amt": 789600,
+        "inout_type": "출금",
+        "printed_content": "버거킹",
+        "branchName": "천안남서울대점",
+        "tran_time": "080154",
+        "tran_amt": -1100
+      },
+      {
+        "tran_date": "2022-04-20",
+        "tran_type": "현금",
+        "after_balance_amt": 781400,
+        "inout_type": "출금",
+        "printed_content": "피자나라 치킨공주",
+        "branchName": "천안불당파크점",
+        "tran_time": "163234",
+        "tran_amt": -8200
+      },
+      {
+        "tran_date": "2022-04-21",
+        "tran_type": "현금",
+        "after_balance_amt": 777700,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "232614",
+        "tran_amt": -3700
+      },
+      {
+        "tran_date": "2022-04-23",
+        "tran_type": "현금",
+        "after_balance_amt": 776100,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "035247",
+        "tran_amt": -1600
+      },
+      {
+        "tran_date": "2022-04-23",
+        "tran_type": "현금",
+        "after_balance_amt": 772000,
+        "inout_type": "출금",
+        "printed_content": "한상준",
+        "branchName": "",
+        "tran_time": "202930",
+        "tran_amt": -4100
+      },
+      {
+        "tran_date": "2022-04-24",
+        "tran_type": "현금",
+        "after_balance_amt": 771300,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "124832",
+        "tran_amt": -700
+      },
+      {
+        "tran_date": "2022-04-26",
+        "tran_type": "현금",
+        "after_balance_amt": 768800,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안성성점",
+        "tran_time": "092545",
+        "tran_amt": -2500
+      },
+      {
+        "tran_date": "2022-04-27",
+        "tran_type": "현금",
+        "after_balance_amt": 767100,
+        "inout_type": "출금",
+        "printed_content": "버거킹",
+        "branchName": "천안차암점",
+        "tran_time": "183728",
+        "tran_amt": -1700
+      },
+      {
+        "tran_date": "2022-04-29",
+        "tran_type": "현금",
+        "after_balance_amt": 757600,
+        "inout_type": "출금",
+        "printed_content": "이마트24",
+        "branchName": "천안불당파크점",
+        "tran_time": "183913",
+        "tran_amt": -9500
+      },
+      {
+        "tran_date": "2022-04-30",
+        "tran_type": "현금",
+        "after_balance_amt": 752200,
+        "inout_type": "출금",
+        "printed_content": "이마트24",
+        "branchName": "천안남서울대점",
+        "tran_time": "042507",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-04-30",
+        "tran_type": "현금",
+        "after_balance_amt": 746400,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안두정역점",
+        "tran_time": "102808",
+        "tran_amt": -5800
+      },
+      {
+        "tran_date": "2022-05-02",
+        "tran_type": "현금",
+        "after_balance_amt": 743600,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "055641",
+        "tran_amt": -2800
+      },
+      {
+        "tran_date": "2022-05-04",
+        "tran_type": "현금",
+        "after_balance_amt": 742900,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "075622",
+        "tran_amt": -700
+      },
+      {
+        "tran_date": "2022-05-06",
+        "tran_type": "현금",
+        "after_balance_amt": 738300,
+        "inout_type": "출금",
+        "printed_content": "맥도날드",
+        "branchName": "천안성성점",
+        "tran_time": "043805",
+        "tran_amt": -4600
+      },
+      {
+        "tran_date": "2022-05-08",
+        "tran_type": "현금",
+        "after_balance_amt": 734900,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안봉명점",
+        "tran_time": "024528",
+        "tran_amt": -3400
+      },
+      {
+        "tran_date": "2022-05-10",
+        "tran_type": "현금",
+        "after_balance_amt": 733000,
+        "inout_type": "출금",
+        "printed_content": "해외결제",
+        "branchName": "",
+        "tran_time": "034003",
+        "tran_amt": -1900
+      },
+      {
+        "tran_date": "2022-05-11",
+        "tran_type": "현금",
+        "after_balance_amt": 729000,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안불당파크점",
+        "tran_time": "062650",
+        "tran_amt": -4000
+      },
+      {
+        "tran_date": "2022-05-11",
+        "tran_type": "현금",
+        "after_balance_amt": 721000,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "185501",
+        "tran_amt": -8000
+      },
+      {
+        "tran_date": "2022-05-13",
+        "tran_type": "현금",
+        "after_balance_amt": 720000,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안성성점",
+        "tran_time": "045146",
+        "tran_amt": -1000
+      },
+      {
+        "tran_date": "2022-05-14",
+        "tran_type": "현금",
+        "after_balance_amt": 717100,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "172937",
+        "tran_amt": -2900
+      },
+      {
+        "tran_date": "2022-05-15",
+        "tran_type": "현금",
+        "after_balance_amt": 716300,
+        "inout_type": "출금",
+        "printed_content": "해외결제",
+        "branchName": "",
+        "tran_time": "083636",
+        "tran_amt": -800
+      },
+      {
+        "tran_date": "2022-05-16",
+        "tran_type": "현금",
+        "after_balance_amt": 713600,
+        "inout_type": "출금",
+        "printed_content": "써브웨이",
+        "branchName": "천안차암점",
+        "tran_time": "071455",
+        "tran_amt": -2700
+      },
+      {
+        "tran_date": "2022-05-16",
+        "tran_type": "현금",
+        "after_balance_amt": 704000,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안성성점",
+        "tran_time": "192801",
+        "tran_amt": -9600
+      },
+      {
+        "tran_date": "2022-05-18",
+        "tran_type": "현금",
+        "after_balance_amt": 700300,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "113449",
+        "tran_amt": -3700
+      },
+      {
+        "tran_date": "2022-05-19",
+        "tran_type": "현금",
+        "after_balance_amt": 698400,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "044854",
+        "tran_amt": -1900
+      },
+      {
+        "tran_date": "2022-05-20",
+        "tran_type": "현금",
+        "after_balance_amt": 695100,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "073915",
+        "tran_amt": -3300
+      },
+      {
+        "tran_date": "2022-05-20",
+        "tran_type": "현금",
+        "after_balance_amt": 692200,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "131634",
+        "tran_amt": -2900
+      },
+      {
+        "tran_date": "2022-05-21",
+        "tran_type": "현금",
+        "after_balance_amt": 689300,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "201733",
+        "tran_amt": -2900
+      },
+      {
+        "tran_date": "2022-05-23",
+        "tran_type": "현금",
+        "after_balance_amt": 683200,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안성성점",
+        "tran_time": "093929",
+        "tran_amt": -6100
+      },
+      {
+        "tran_date": "2022-05-24",
+        "tran_type": "현금",
+        "after_balance_amt": 677800,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "223802",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-05-26",
+        "tran_type": "현금",
+        "after_balance_amt": 674000,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안봉명점",
+        "tran_time": "213054",
+        "tran_amt": -3800
+      },
+      {
+        "tran_date": "2022-05-27",
+        "tran_type": "현금",
+        "after_balance_amt": 672900,
+        "inout_type": "출금",
+        "printed_content": "맛없으면 환불해주는 장군집",
+        "branchName": "천안남서울대점",
+        "tran_time": "234140",
+        "tran_amt": -1100
+      },
+      {
+        "tran_date": "2022-05-29",
+        "tran_type": "현금",
+        "after_balance_amt": 672600,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안두정역점",
+        "tran_time": "015149",
+        "tran_amt": -300
+      },
+      {
+        "tran_date": "2022-05-29",
+        "tran_type": "현금",
+        "after_balance_amt": 667700,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "120122",
+        "tran_amt": -4900
+      },
+      {
+        "tran_date": "2022-05-30",
+        "tran_type": "현금",
+        "after_balance_amt": 664800,
+        "inout_type": "출금",
+        "printed_content": "역전국밥",
+        "branchName": "천안두정역점",
+        "tran_time": "225544",
+        "tran_amt": -2900
+      },
+      {
+        "tran_date": "2022-05-31",
+        "tran_type": "현금",
+        "after_balance_amt": 658500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "120336",
+        "tran_amt": -6300
+      },
+      {
+        "tran_date": "2022-05-31",
+        "tran_type": "현금",
+        "after_balance_amt": 652700,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "171032",
+        "tran_amt": -5800
+      },
+      {
+        "tran_date": "2022-06-01",
+        "tran_type": "현금",
+        "after_balance_amt": 651500,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "034621",
+        "tran_amt": -1200
+      },
+      {
+        "tran_date": "2022-06-02",
+        "tran_type": "현금",
+        "after_balance_amt": 649500,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안두정역점",
+        "tran_time": "152731",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "2022-06-03",
+        "tran_type": "현금",
+        "after_balance_amt": 647200,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안남서울대점",
+        "tran_time": "124407",
+        "tran_amt": -2300
+      },
+      {
+        "tran_date": "2022-06-05",
+        "tran_type": "현금",
+        "after_balance_amt": 637600,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "012321",
+        "tran_amt": -9600
+      },
+      {
+        "tran_date": "2022-06-06",
+        "tran_type": "현금",
+        "after_balance_amt": 634800,
+        "inout_type": "출금",
+        "printed_content": "마초떡볶이",
+        "branchName": "천안불당파크점",
+        "tran_time": "051620",
+        "tran_amt": -2800
+      },
+      {
+        "tran_date": "2022-06-07",
+        "tran_type": "현금",
+        "after_balance_amt": 625500,
+        "inout_type": "출금",
+        "printed_content": "CU",
+        "branchName": "천안남서울대점",
+        "tran_time": "180252",
+        "tran_amt": -9300
+      },
+      {
+        "tran_date": "2022-06-08",
+        "tran_type": "현금",
+        "after_balance_amt": 623200,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "105613",
+        "tran_amt": -2300
+      },
+      {
+        "tran_date": "2022-06-09",
+        "tran_type": "현금",
+        "after_balance_amt": 614700,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "024752",
+        "tran_amt": -8500
+      },
+      {
+        "tran_date": "2022-06-10",
+        "tran_type": "현금",
+        "after_balance_amt": 605000,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "223000",
+        "tran_amt": -9700
+      },
+      {
+        "tran_date": "2022-06-12",
+        "tran_type": "현금",
+        "after_balance_amt": 597500,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "102449",
+        "tran_amt": -7500
+      },
+      {
+        "tran_date": "2022-06-12",
+        "tran_type": "현금",
+        "after_balance_amt": 588800,
+        "inout_type": "출금",
+        "printed_content": "박상윤",
+        "branchName": "",
+        "tran_time": "220019",
+        "tran_amt": -8700
+      },
+      {
+        "tran_date": "2022-06-13",
+        "tran_type": "현금",
+        "after_balance_amt": 587000,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안성성점",
+        "tran_time": "233048",
+        "tran_amt": -1800
+      },
+      {
+        "tran_date": "2022-06-15",
+        "tran_type": "현금",
+        "after_balance_amt": 577200,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "042429",
+        "tran_amt": -9800
+      },
+      {
+        "tran_date": "2022-06-16",
+        "tran_type": "현금",
+        "after_balance_amt": 572200,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안두정역점",
+        "tran_time": "131530",
+        "tran_amt": -5000
+      },
+      {
+        "tran_date": "2022-06-17",
+        "tran_type": "현금",
+        "after_balance_amt": 565800,
+        "inout_type": "출금",
+        "printed_content": "문선호",
+        "branchName": "",
+        "tran_time": "160222",
+        "tran_amt": -6400
+      },
+      {
+        "tran_date": "2022-06-18",
+        "tran_type": "현금",
+        "after_balance_amt": 558700,
+        "inout_type": "출금",
+        "printed_content": "세븐일레븐",
+        "branchName": "천안불당파크점",
+        "tran_time": "084045",
+        "tran_amt": -7100
+      },
+      {
+        "tran_date": "2022-06-20",
+        "tran_type": "현금",
+        "after_balance_amt": 559300,
+        "inout_type": "입금",
+        "printed_content": "Foch",
+        "branchName": "",
+        "tran_time": "025448",
+        "tran_amt": 600
+      },
+      {
+        "tran_date": "2022-06-20",
+        "tran_type": "현금",
+        "after_balance_amt": 557500,
+        "inout_type": "출금",
+        "printed_content": "세븐일레븐",
+        "branchName": "천안불당파크점",
+        "tran_time": "122125",
+        "tran_amt": -1800
+      },
+      {
+        "tran_date": "2022-06-21",
+        "tran_type": "현금",
+        "after_balance_amt": 552300,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안두정역점",
+        "tran_time": "173135",
+        "tran_amt": -5200
+      },
+      {
+        "tran_date": "2022-06-23",
+        "tran_type": "현금",
+        "after_balance_amt": 550100,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "040531",
+        "tran_amt": -2200
+      },
+      {
+        "tran_date": "2022-06-24",
+        "tran_type": "현금",
+        "after_balance_amt": 548600,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안봉명점",
+        "tran_time": "153535",
+        "tran_amt": -1500
+      },
+      {
+        "tran_date": "2022-06-24",
+        "tran_type": "현금",
+        "after_balance_amt": 540200,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "194635",
+        "tran_amt": -8400
+      }
+    ],
+    "balance_amt": 540200
+  },
+  {
+    "account_number": "224-411-881306",
+    "bank_code_tran": "010",
+    "bank_name": "NH농협은행",
+    "res_list": [
+      {
+        "tran_date": "2022-03-03",
+        "tran_type": "현금",
+        "after_balance_amt": 994200,
+        "inout_type": "출금",
+        "printed_content": "한상준",
+        "branchName": "",
+        "tran_time": "004547",
+        "tran_amt": -5800
+      },
+      {
+        "tran_date": "2022-03-03",
+        "tran_type": "현금",
+        "after_balance_amt": 985300,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "061131",
+        "tran_amt": -8900
+      },
+      {
+        "tran_date": "2022-03-03",
+        "tran_type": "현금",
+        "after_balance_amt": 983800,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안봉명점",
+        "tran_time": "155000",
+        "tran_amt": -1500
+      },
+      {
+        "tran_date": "2022-03-03",
+        "tran_type": "현금",
+        "after_balance_amt": 983600,
+        "inout_type": "출금",
+        "printed_content": "해외결제",
+        "branchName": "",
+        "tran_time": "224317",
+        "tran_amt": -200
+      },
+      {
+        "tran_date": "2022-03-04",
+        "tran_type": "현금",
+        "after_balance_amt": 974800,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "121816",
+        "tran_amt": -8800
+      },
+      {
+        "tran_date": "2022-03-05",
+        "tran_type": "현금",
+        "after_balance_amt": 967200,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안두정역점",
+        "tran_time": "212228",
+        "tran_amt": -7600
+      },
+      {
+        "tran_date": "2022-03-07",
+        "tran_type": "현금",
+        "after_balance_amt": 959400,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "195927",
+        "tran_amt": -7800
+      },
+      {
+        "tran_date": "2022-03-08",
+        "tran_type": "현금",
+        "after_balance_amt": 950700,
+        "inout_type": "출금",
+        "printed_content": "롯데마트",
+        "branchName": "천안성성점",
+        "tran_time": "154333",
+        "tran_amt": -8700
+      },
+      {
+        "tran_date": "2022-03-10",
+        "tran_type": "현금",
+        "after_balance_amt": 944200,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "053613",
+        "tran_amt": -6500
+      },
+      {
+        "tran_date": "2022-03-11",
+        "tran_type": "현금",
+        "after_balance_amt": 937200,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안봉명점",
+        "tran_time": "152112",
+        "tran_amt": -7000
+      },
+      {
+        "tran_date": "2022-03-13",
+        "tran_type": "현금",
+        "after_balance_amt": 936100,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "154418",
+        "tran_amt": -1100
+      },
+      {
+        "tran_date": "2022-03-15",
+        "tran_type": "현금",
+        "after_balance_amt": 944100,
+        "inout_type": "입금",
+        "printed_content": "Foch",
+        "branchName": "",
+        "tran_time": "020144",
+        "tran_amt": 8000
+      },
+      {
+        "tran_date": "2022-03-17",
+        "tran_type": "현금",
+        "after_balance_amt": 939000,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "052159",
+        "tran_amt": -5100
+      },
+      {
+        "tran_date": "2022-03-18",
+        "tran_type": "현금",
+        "after_balance_amt": 931200,
+        "inout_type": "출금",
+        "printed_content": "60계",
+        "branchName": "천안불당파크점",
+        "tran_time": "221313",
+        "tran_amt": -7800
+      },
+      {
+        "tran_date": "2022-03-19",
+        "tran_type": "현금",
+        "after_balance_amt": 924200,
+        "inout_type": "출금",
+        "printed_content": "맥도날드",
+        "branchName": "천안불당파크점",
+        "tran_time": "023317",
+        "tran_amt": -7000
+      },
+      {
+        "tran_date": "2022-03-20",
+        "tran_type": "현금",
+        "after_balance_amt": 916500,
+        "inout_type": "출금",
+        "printed_content": "세븐일레븐",
+        "branchName": "천안남서울대점",
+        "tran_time": "221838",
+        "tran_amt": -7700
+      },
+      {
+        "tran_date": "2022-03-22",
+        "tran_type": "현금",
+        "after_balance_amt": 915600,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "081358",
+        "tran_amt": -900
+      },
+      {
+        "tran_date": "2022-03-23",
+        "tran_type": "현금",
+        "after_balance_amt": 909800,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안차암점",
+        "tran_time": "094046",
+        "tran_amt": -5800
+      },
+      {
+        "tran_date": "2022-03-24",
+        "tran_type": "현금",
+        "after_balance_amt": 904700,
+        "inout_type": "출금",
+        "printed_content": "역전국밥",
+        "branchName": "천안봉명점",
+        "tran_time": "074350",
+        "tran_amt": -5100
+      },
+      {
+        "tran_date": "2022-03-26",
+        "tran_type": "현금",
+        "after_balance_amt": 904600,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안남서울대점",
+        "tran_time": "043115",
+        "tran_amt": -100
+      },
+      {
+        "tran_date": "2022-03-27",
+        "tran_type": "현금",
+        "after_balance_amt": 895300,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "151544",
+        "tran_amt": -9300
+      },
+      {
+        "tran_date": "2022-03-28",
+        "tran_type": "현금",
+        "after_balance_amt": 892200,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "101329",
+        "tran_amt": -3100
+      },
+      {
+        "tran_date": "2022-03-29",
+        "tran_type": "현금",
+        "after_balance_amt": 884000,
+        "inout_type": "출금",
+        "printed_content": "GS25",
+        "branchName": "천안불당파크점",
+        "tran_time": "055834",
+        "tran_amt": -8200
+      },
+      {
+        "tran_date": "2022-03-30",
+        "tran_type": "현금",
+        "after_balance_amt": 880800,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안남서울대점",
+        "tran_time": "082933",
+        "tran_amt": -3200
+      },
+      {
+        "tran_date": "2022-03-31",
+        "tran_type": "현금",
+        "after_balance_amt": 870900,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안차암점",
+        "tran_time": "045253",
+        "tran_amt": -9900
+      },
+      {
+        "tran_date": "2022-04-02",
+        "tran_type": "현금",
+        "after_balance_amt": 870400,
+        "inout_type": "출금",
+        "printed_content": "마초떡볶이",
+        "branchName": "천안봉명점",
+        "tran_time": "025024",
+        "tran_amt": -500
+      },
+      {
+        "tran_date": "2022-04-03",
+        "tran_type": "현금",
+        "after_balance_amt": 862600,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안성성점",
+        "tran_time": "044654",
+        "tran_amt": -7800
+      },
+      {
+        "tran_date": "2022-04-03",
+        "tran_type": "현금",
+        "after_balance_amt": 853000,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "195239",
+        "tran_amt": -9600
+      },
+      {
+        "tran_date": "2022-04-04",
+        "tran_type": "현금",
+        "after_balance_amt": 849200,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "044910",
+        "tran_amt": -3800
+      },
+      {
+        "tran_date": "2022-04-06",
+        "tran_type": "현금",
+        "after_balance_amt": 839600,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "075049",
+        "tran_amt": -9600
+      },
+      {
+        "tran_date": "2022-04-07",
+        "tran_type": "현금",
+        "after_balance_amt": 834400,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안남서울대점",
+        "tran_time": "034321",
+        "tran_amt": -5200
+      },
+      {
+        "tran_date": "2022-04-08",
+        "tran_type": "현금",
+        "after_balance_amt": 829800,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "053156",
+        "tran_amt": -4600
+      },
+      {
+        "tran_date": "2022-04-08",
+        "tran_type": "현금",
+        "after_balance_amt": 821000,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "093752",
+        "tran_amt": -8800
+      },
+      {
+        "tran_date": "2022-04-08",
+        "tran_type": "현금",
+        "after_balance_amt": 817000,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "211814",
+        "tran_amt": -4000
+      },
+      {
+        "tran_date": "2022-04-09",
+        "tran_type": "현금",
+        "after_balance_amt": 813900,
+        "inout_type": "출금",
+        "printed_content": "미니스톡",
+        "branchName": "천안남서울대점",
+        "tran_time": "060151",
+        "tran_amt": -3100
+      },
+      {
+        "tran_date": "2022-04-11",
+        "tran_type": "현금",
+        "after_balance_amt": 806300,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "015614",
+        "tran_amt": -7600
+      },
+      {
+        "tran_date": "2022-04-11",
+        "tran_type": "현금",
+        "after_balance_amt": 796600,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "213703",
+        "tran_amt": -9700
+      },
+      {
+        "tran_date": "2022-04-12",
+        "tran_type": "현금",
+        "after_balance_amt": 792200,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "040708",
+        "tran_amt": -4400
+      },
+      {
+        "tran_date": "2022-04-13",
+        "tran_type": "현금",
+        "after_balance_amt": 786400,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "151710",
+        "tran_amt": -5800
+      },
+      {
+        "tran_date": "2022-04-14",
+        "tran_type": "현금",
+        "after_balance_amt": 782500,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "162736",
+        "tran_amt": -3900
+      },
+      {
+        "tran_date": "2022-04-16",
+        "tran_type": "현금",
+        "after_balance_amt": 779200,
+        "inout_type": "출금",
+        "printed_content": "피자나라 치킨공주",
+        "branchName": "천안봉명점",
+        "tran_time": "190609",
+        "tran_amt": -3300
+      },
+      {
+        "tran_date": "2022-04-17",
+        "tran_type": "현금",
+        "after_balance_amt": 770700,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "033642",
+        "tran_amt": -8500
+      },
+      {
+        "tran_date": "2022-04-17",
+        "tran_type": "현금",
+        "after_balance_amt": 766200,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "200137",
+        "tran_amt": -4500
+      },
+      {
+        "tran_date": "2022-04-18",
+        "tran_type": "현금",
+        "after_balance_amt": 762700,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "180543",
+        "tran_amt": -3500
+      },
+      {
+        "tran_date": "2022-04-20",
+        "tran_type": "현금",
+        "after_balance_amt": 761200,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "030659",
+        "tran_amt": -1500
+      },
+      {
+        "tran_date": "2022-04-21",
+        "tran_type": "현금",
+        "after_balance_amt": 755700,
+        "inout_type": "출금",
+        "printed_content": "노랑통닭",
+        "branchName": "천안불당파크점",
+        "tran_time": "083753",
+        "tran_amt": -5500
+      },
+      {
+        "tran_date": "2022-04-22",
+        "tran_type": "현금",
+        "after_balance_amt": 749700,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안성성점",
+        "tran_time": "151912",
+        "tran_amt": -6000
+      },
+      {
+        "tran_date": "2022-04-24",
+        "tran_type": "현금",
+        "after_balance_amt": 743600,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "003411",
+        "tran_amt": -6100
+      },
+      {
+        "tran_date": "2022-04-25",
+        "tran_type": "현금",
+        "after_balance_amt": 740700,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "043158",
+        "tran_amt": -2900
+      },
+      {
+        "tran_date": "2022-04-26",
+        "tran_type": "현금",
+        "after_balance_amt": 739100,
+        "inout_type": "출금",
+        "printed_content": "미니스톡",
+        "branchName": "천안남서울대점",
+        "tran_time": "080031",
+        "tran_amt": -1600
+      },
+      {
+        "tran_date": "2022-04-28",
+        "tran_type": "현금",
+        "after_balance_amt": 729400,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "053926",
+        "tran_amt": -9700
+      },
+      {
+        "tran_date": "2022-04-28",
+        "tran_type": "현금",
+        "after_balance_amt": 728000,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "164619",
+        "tran_amt": -1400
+      },
+      {
+        "tran_date": "2022-04-30",
+        "tran_type": "현금",
+        "after_balance_amt": 721400,
+        "inout_type": "출금",
+        "printed_content": "타이거슈가",
+        "branchName": "천안두정역점",
+        "tran_time": "113826",
+        "tran_amt": -6600
+      },
+      {
+        "tran_date": "2022-05-02",
+        "tran_type": "현금",
+        "after_balance_amt": 718400,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안성성점",
+        "tran_time": "000050",
+        "tran_amt": -3000
+      },
+      {
+        "tran_date": "2022-05-03",
+        "tran_type": "현금",
+        "after_balance_amt": 711200,
+        "inout_type": "출금",
+        "printed_content": "공차",
+        "branchName": "천안두정역점",
+        "tran_time": "142806",
+        "tran_amt": -7200
+      },
+      {
+        "tran_date": "2022-05-04",
+        "tran_type": "현금",
+        "after_balance_amt": 706900,
+        "inout_type": "출금",
+        "printed_content": "신전떡볶이",
+        "branchName": "천안봉명점",
+        "tran_time": "093455",
+        "tran_amt": -4300
+      },
+      {
+        "tran_date": "2022-05-06",
+        "tran_type": "현금",
+        "after_balance_amt": 706500,
+        "inout_type": "출금",
+        "printed_content": "에그드랍",
+        "branchName": "천안성성점",
+        "tran_time": "104515",
+        "tran_amt": -400
+      },
+      {
+        "tran_date": "2022-05-07",
+        "tran_type": "현금",
+        "after_balance_amt": 702000,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "123849",
+        "tran_amt": -4500
+      },
+      {
+        "tran_date": "2022-05-07",
+        "tran_type": "현금",
+        "after_balance_amt": 698500,
+        "inout_type": "출금",
+        "printed_content": "CU",
+        "branchName": "천안차암점",
+        "tran_time": "171820",
+        "tran_amt": -3500
+      },
+      {
+        "tran_date": "2022-05-09",
+        "tran_type": "현금",
+        "after_balance_amt": 692200,
+        "inout_type": "출금",
+        "printed_content": "롯데마트",
+        "branchName": "천안봉명점",
+        "tran_time": "204337",
+        "tran_amt": -6300
+      },
+      {
+        "tran_date": "2022-05-11",
+        "tran_type": "현금",
+        "after_balance_amt": 690600,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안두정역점",
+        "tran_time": "202227",
+        "tran_amt": -1600
+      },
+      {
+        "tran_date": "2022-05-13",
+        "tran_type": "현금",
+        "after_balance_amt": 681800,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "044531",
+        "tran_amt": -8800
+      },
+      {
+        "tran_date": "2022-05-13",
+        "tran_type": "현금",
+        "after_balance_amt": 677900,
+        "inout_type": "출금",
+        "printed_content": "한상준",
+        "branchName": "",
+        "tran_time": "231607",
+        "tran_amt": -3900
+      },
+      {
+        "tran_date": "2022-05-15",
+        "tran_type": "현금",
+        "after_balance_amt": 668400,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "150338",
+        "tran_amt": -9500
+      },
+      {
+        "tran_date": "2022-05-17",
+        "tran_type": "현금",
+        "after_balance_amt": 663900,
+        "inout_type": "출금",
+        "printed_content": "공차",
+        "branchName": "천안봉명점",
+        "tran_time": "031730",
+        "tran_amt": -4500
+      },
+      {
+        "tran_date": "2022-05-18",
+        "tran_type": "현금",
+        "after_balance_amt": 659500,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "051531",
+        "tran_amt": -4400
+      },
+      {
+        "tran_date": "2022-05-19",
+        "tran_type": "현금",
+        "after_balance_amt": 650300,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안두정역점",
+        "tran_time": "050144",
+        "tran_amt": -9200
+      },
+      {
+        "tran_date": "2022-05-19",
+        "tran_type": "현금",
+        "after_balance_amt": 648500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "121608",
+        "tran_amt": -1800
+      },
+      {
+        "tran_date": "2022-05-20",
+        "tran_type": "현금",
+        "after_balance_amt": 643500,
+        "inout_type": "출금",
+        "printed_content": "문선호",
+        "branchName": "",
+        "tran_time": "230627",
+        "tran_amt": -5000
+      },
+      {
+        "tran_date": "2022-05-21",
+        "tran_type": "현금",
+        "after_balance_amt": 643100,
+        "inout_type": "출금",
+        "printed_content": "삼겹싸롱",
+        "branchName": "천안봉명점",
+        "tran_time": "173901",
+        "tran_amt": -400
+      },
+      {
+        "tran_date": "2022-05-22",
+        "tran_type": "현금",
+        "after_balance_amt": 633800,
+        "inout_type": "출금",
+        "printed_content": "롯데마트",
+        "branchName": "천안불당파크점",
+        "tran_time": "210748",
+        "tran_amt": -9300
+      },
+      {
+        "tran_date": "2022-05-24",
+        "tran_type": "현금",
+        "after_balance_amt": 626600,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안봉명점",
+        "tran_time": "064915",
+        "tran_amt": -7200
+      },
+      {
+        "tran_date": "2022-05-25",
+        "tran_type": "현금",
+        "after_balance_amt": 624600,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "161901",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "2022-05-27",
+        "tran_type": "현금",
+        "after_balance_amt": 618700,
+        "inout_type": "출금",
+        "printed_content": "한상준",
+        "branchName": "",
+        "tran_time": "043224",
+        "tran_amt": -5900
+      },
+      {
+        "tran_date": "2022-05-28",
+        "tran_type": "현금",
+        "after_balance_amt": 609300,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "072741",
+        "tran_amt": -9400
+      },
+      {
+        "tran_date": "2022-05-29",
+        "tran_type": "현금",
+        "after_balance_amt": 599500,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안봉명점",
+        "tran_time": "055734",
+        "tran_amt": -9800
+      },
+      {
+        "tran_date": "2022-05-30",
+        "tran_type": "현금",
+        "after_balance_amt": 591300,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "023711",
+        "tran_amt": -8200
+      },
+      {
+        "tran_date": "2022-05-31",
+        "tran_type": "현금",
+        "after_balance_amt": 589700,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "142747",
+        "tran_amt": -1600
+      },
+      {
+        "tran_date": "2022-06-02",
+        "tran_type": "현금",
+        "after_balance_amt": 585000,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안두정역점",
+        "tran_time": "134742",
+        "tran_amt": -4700
+      },
+      {
+        "tran_date": "2022-06-02",
+        "tran_type": "현금",
+        "after_balance_amt": 583100,
+        "inout_type": "출금",
+        "printed_content": "찰스리",
+        "branchName": "천안불당파크점",
+        "tran_time": "223849",
+        "tran_amt": -1900
+      },
+      {
+        "tran_date": "2022-06-03",
+        "tran_type": "현금",
+        "after_balance_amt": 580300,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "063151",
+        "tran_amt": -2800
+      },
+      {
+        "tran_date": "2022-06-03",
+        "tran_type": "현금",
+        "after_balance_amt": 573300,
+        "inout_type": "출금",
+        "printed_content": "역전국밥",
+        "branchName": "천안성성점",
+        "tran_time": "205115",
+        "tran_amt": -7000
+      },
+      {
+        "tran_date": "2022-06-05",
+        "tran_type": "현금",
+        "after_balance_amt": 569500,
+        "inout_type": "출금",
+        "printed_content": "세븐일레븐",
+        "branchName": "천안두정역점",
+        "tran_time": "193415",
+        "tran_amt": -3800
+      },
+      {
+        "tran_date": "2022-06-06",
+        "tran_type": "현금",
+        "after_balance_amt": 566200,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "155215",
+        "tran_amt": -3300
+      },
+      {
+        "tran_date": "2022-06-07",
+        "tran_type": "현금",
+        "after_balance_amt": 563000,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "041346",
+        "tran_amt": -3200
+      },
+      {
+        "tran_date": "2022-06-08",
+        "tran_type": "현금",
+        "after_balance_amt": 555500,
+        "inout_type": "출금",
+        "printed_content": "해외결제",
+        "branchName": "",
+        "tran_time": "015547",
+        "tran_amt": -7500
+      },
+      {
+        "tran_date": "2022-06-08",
+        "tran_type": "현금",
+        "after_balance_amt": 546000,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "105448",
+        "tran_amt": -9500
+      },
+      {
+        "tran_date": "2022-06-10",
+        "tran_type": "현금",
+        "after_balance_amt": 540300,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "003947",
+        "tran_amt": -5700
+      },
+      {
+        "tran_date": "2022-06-11",
+        "tran_type": "현금",
+        "after_balance_amt": 534500,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안남서울대점",
+        "tran_time": "184603",
+        "tran_amt": -5800
+      },
+      {
+        "tran_date": "2022-06-13",
+        "tran_type": "현금",
+        "after_balance_amt": 528100,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안성성점",
+        "tran_time": "170306",
+        "tran_amt": -6400
+      },
+      {
+        "tran_date": "2022-06-15",
+        "tran_type": "현금",
+        "after_balance_amt": 522700,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안두정역점",
+        "tran_time": "004610",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-06-16",
+        "tran_type": "현금",
+        "after_balance_amt": 515600,
+        "inout_type": "출금",
+        "printed_content": "써브웨이",
+        "branchName": "천안남서울대점",
+        "tran_time": "063849",
+        "tran_amt": -7100
+      },
+      {
+        "tran_date": "2022-06-17",
+        "tran_type": "현금",
+        "after_balance_amt": 515100,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "233400",
+        "tran_amt": -500
+      },
+      {
+        "tran_date": "2022-06-18",
+        "tran_type": "현금",
+        "after_balance_amt": 506700,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안성성점",
+        "tran_time": "185546",
+        "tran_amt": -8400
+      },
+      {
+        "tran_date": "2022-06-20",
+        "tran_type": "현금",
+        "after_balance_amt": 498300,
+        "inout_type": "출금",
+        "printed_content": "롯데리아",
+        "branchName": "천안봉명점",
+        "tran_time": "022847",
+        "tran_amt": -8400
+      },
+      {
+        "tran_date": "2022-06-21",
+        "tran_type": "현금",
+        "after_balance_amt": 488600,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안두정역점",
+        "tran_time": "225016",
+        "tran_amt": -9700
+      },
+      {
+        "tran_date": "2022-06-22",
+        "tran_type": "현금",
+        "after_balance_amt": 486100,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "154108",
+        "tran_amt": -2500
+      },
+      {
+        "tran_date": "2022-06-23",
+        "tran_type": "현금",
+        "after_balance_amt": 482800,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안차암점",
+        "tran_time": "024059",
+        "tran_amt": -3300
+      },
+      {
+        "tran_date": "2022-06-24",
+        "tran_type": "현금",
+        "after_balance_amt": 476300,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안두정역점",
+        "tran_time": "035618",
+        "tran_amt": -6500
+      },
+      {
+        "tran_date": "2022-06-24",
+        "tran_type": "현금",
+        "after_balance_amt": 475800,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안남서울대점",
+        "tran_time": "231058",
+        "tran_amt": -500
+      }
+    ],
+    "balance_amt": 475800
+  },
+  {
+    "account_number": "657-935-245393",
+    "bank_code_tran": "010",
+    "bank_name": "NH농협은행",
+    "res_list": [
+      {
+        "tran_date": "2022-03-02",
+        "tran_type": "현금",
+        "after_balance_amt": 991700,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안차암점",
+        "tran_time": "121228",
+        "tran_amt": -8300
+      },
+      {
+        "tran_date": "2022-03-04",
+        "tran_type": "현금",
+        "after_balance_amt": 984000,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "134705",
+        "tran_amt": -7700
+      },
+      {
+        "tran_date": "2022-03-05",
+        "tran_type": "현금",
+        "after_balance_amt": 978700,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안성성점",
+        "tran_time": "121221",
+        "tran_amt": -5300
+      },
+      {
+        "tran_date": "2022-03-06",
+        "tran_type": "현금",
+        "after_balance_amt": 972100,
+        "inout_type": "출금",
+        "printed_content": "타이거슈가",
+        "branchName": "천안불당파크점",
+        "tran_time": "150910",
+        "tran_amt": -6600
+      },
+      {
+        "tran_date": "2022-03-07",
+        "tran_type": "현금",
+        "after_balance_amt": 969300,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안불당파크점",
+        "tran_time": "095841",
+        "tran_amt": -2800
+      },
+      {
+        "tran_date": "2022-03-07",
+        "tran_type": "현금",
+        "after_balance_amt": 959800,
+        "inout_type": "출금",
+        "printed_content": "60계",
+        "branchName": "천안남서울대점",
+        "tran_time": "170059",
+        "tran_amt": -9500
+      },
+      {
+        "tran_date": "2022-03-08",
+        "tran_type": "현금",
+        "after_balance_amt": 952600,
+        "inout_type": "출금",
+        "printed_content": "삼겹싸롱",
+        "branchName": "천안봉명점",
+        "tran_time": "040531",
+        "tran_amt": -7200
+      },
+      {
+        "tran_date": "2022-03-10",
+        "tran_type": "현금",
+        "after_balance_amt": 944500,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "054154",
+        "tran_amt": -8100
+      },
+      {
+        "tran_date": "2022-03-10",
+        "tran_type": "현금",
+        "after_balance_amt": 936400,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "160456",
+        "tran_amt": -8100
+      },
+      {
+        "tran_date": "2022-03-10",
+        "tran_type": "현금",
+        "after_balance_amt": 930500,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "202433",
+        "tran_amt": -5900
+      },
+      {
+        "tran_date": "2022-03-12",
+        "tran_type": "현금",
+        "after_balance_amt": 930400,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "231918",
+        "tran_amt": -100
+      },
+      {
+        "tran_date": "2022-03-13",
+        "tran_type": "현금",
+        "after_balance_amt": 930200,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안차암점",
+        "tran_time": "072827",
+        "tran_amt": -200
+      },
+      {
+        "tran_date": "2022-03-14",
+        "tran_type": "현금",
+        "after_balance_amt": 922000,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "181037",
+        "tran_amt": -8200
+      },
+      {
+        "tran_date": "2022-03-15",
+        "tran_type": "현금",
+        "after_balance_amt": 915000,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "165636",
+        "tran_amt": -7000
+      },
+      {
+        "tran_date": "2022-03-17",
+        "tran_type": "현금",
+        "after_balance_amt": 913300,
+        "inout_type": "출금",
+        "printed_content": "이차돌",
+        "branchName": "천안불당파크점",
+        "tran_time": "112534",
+        "tran_amt": -1700
+      },
+      {
+        "tran_date": "2022-03-17",
+        "tran_type": "현금",
+        "after_balance_amt": 904200,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "171910",
+        "tran_amt": -9100
+      },
+      {
+        "tran_date": "2022-03-19",
+        "tran_type": "현금",
+        "after_balance_amt": 895500,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "104827",
+        "tran_amt": -8700
+      },
+      {
+        "tran_date": "2022-03-20",
+        "tran_type": "현금",
+        "after_balance_amt": 888000,
+        "inout_type": "출금",
+        "printed_content": "하이마트",
+        "branchName": "천안성성점",
+        "tran_time": "054654",
+        "tran_amt": -7500
+      },
+      {
+        "tran_date": "2022-03-21",
+        "tran_type": "현금",
+        "after_balance_amt": 879100,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안봉명점",
+        "tran_time": "062101",
+        "tran_amt": -8900
+      },
+      {
+        "tran_date": "2022-03-21",
+        "tran_type": "현금",
+        "after_balance_amt": 875800,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안봉명점",
+        "tran_time": "192510",
+        "tran_amt": -3300
+      },
+      {
+        "tran_date": "2022-03-22",
+        "tran_type": "현금",
+        "after_balance_amt": 870000,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "010526",
+        "tran_amt": -5800
+      },
+      {
+        "tran_date": "2022-03-23",
+        "tran_type": "현금",
+        "after_balance_amt": 868900,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "005258",
+        "tran_amt": -1100
+      },
+      {
+        "tran_date": "2022-03-25",
+        "tran_type": "현금",
+        "after_balance_amt": 868700,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "010257",
+        "tran_amt": -200
+      },
+      {
+        "tran_date": "2022-03-26",
+        "tran_type": "현금",
+        "after_balance_amt": 868500,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안차암점",
+        "tran_time": "123658",
+        "tran_amt": -200
+      },
+      {
+        "tran_date": "2022-03-27",
+        "tran_type": "현금",
+        "after_balance_amt": 862900,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "032529",
+        "tran_amt": -5600
+      },
+      {
+        "tran_date": "2022-03-28",
+        "tran_type": "현금",
+        "after_balance_amt": 860300,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "113423",
+        "tran_amt": -2600
+      },
+      {
+        "tran_date": "2022-03-29",
+        "tran_type": "현금",
+        "after_balance_amt": 866700,
+        "inout_type": "입금",
+        "printed_content": "Foch",
+        "branchName": "",
+        "tran_time": "225324",
+        "tran_amt": 6400
+      },
+      {
+        "tran_date": "2022-03-31",
+        "tran_type": "현금",
+        "after_balance_amt": 863100,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "115256",
+        "tran_amt": -3600
+      },
+      {
+        "tran_date": "2022-04-01",
+        "tran_type": "현금",
+        "after_balance_amt": 854900,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "143957",
+        "tran_amt": -8200
+      },
+      {
+        "tran_date": "2022-04-02",
+        "tran_type": "현금",
+        "after_balance_amt": 848100,
+        "inout_type": "출금",
+        "printed_content": "CU",
+        "branchName": "천안성성점",
+        "tran_time": "154732",
+        "tran_amt": -6800
+      },
+      {
+        "tran_date": "2022-04-03",
+        "tran_type": "현금",
+        "after_balance_amt": 840400,
+        "inout_type": "출금",
+        "printed_content": "미니스톡",
+        "branchName": "천안불당파크점",
+        "tran_time": "075718",
+        "tran_amt": -7700
+      },
+      {
+        "tran_date": "2022-04-04",
+        "tran_type": "현금",
+        "after_balance_amt": 832000,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안남서울대점",
+        "tran_time": "122102",
+        "tran_amt": -8400
+      },
+      {
+        "tran_date": "2022-04-05",
+        "tran_type": "현금",
+        "after_balance_amt": 825000,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "040633",
+        "tran_amt": -7000
+      },
+      {
+        "tran_date": "2022-04-05",
+        "tran_type": "현금",
+        "after_balance_amt": 816200,
+        "inout_type": "출금",
+        "printed_content": "맥도날드",
+        "branchName": "천안남서울대점",
+        "tran_time": "143036",
+        "tran_amt": -8800
+      },
+      {
+        "tran_date": "2022-04-07",
+        "tran_type": "현금",
+        "after_balance_amt": 815100,
+        "inout_type": "출금",
+        "printed_content": "신전떡볶이",
+        "branchName": "천안불당파크점",
+        "tran_time": "102438",
+        "tran_amt": -1100
+      },
+      {
+        "tran_date": "2022-04-08",
+        "tran_type": "현금",
+        "after_balance_amt": 814600,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안성성점",
+        "tran_time": "061701",
+        "tran_amt": -500
+      },
+      {
+        "tran_date": "2022-04-10",
+        "tran_type": "현금",
+        "after_balance_amt": 807700,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "035301",
+        "tran_amt": -6900
+      },
+      {
+        "tran_date": "2022-04-11",
+        "tran_type": "현금",
+        "after_balance_amt": 799700,
+        "inout_type": "출금",
+        "printed_content": "버거킹",
+        "branchName": "천안차암점",
+        "tran_time": "165440",
+        "tran_amt": -8000
+      },
+      {
+        "tran_date": "2022-04-13",
+        "tran_type": "현금",
+        "after_balance_amt": 792400,
+        "inout_type": "출금",
+        "printed_content": "미니스톡",
+        "branchName": "천안두정역점",
+        "tran_time": "102220",
+        "tran_amt": -7300
+      },
+      {
+        "tran_date": "2022-04-14",
+        "tran_type": "현금",
+        "after_balance_amt": 788900,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "175204",
+        "tran_amt": -3500
+      },
+      {
+        "tran_date": "2022-04-16",
+        "tran_type": "현금",
+        "after_balance_amt": 783500,
+        "inout_type": "출금",
+        "printed_content": "맛없으면 환불해주는 장군집",
+        "branchName": "천안불당파크점",
+        "tran_time": "154417",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-04-17",
+        "tran_type": "현금",
+        "after_balance_amt": 775300,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안남서울대점",
+        "tran_time": "222129",
+        "tran_amt": -8200
+      },
+      {
+        "tran_date": "2022-04-19",
+        "tran_type": "현금",
+        "after_balance_amt": 767100,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안차암점",
+        "tran_time": "022802",
+        "tran_amt": -8200
+      },
+      {
+        "tran_date": "2022-04-20",
+        "tran_type": "현금",
+        "after_balance_amt": 760500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "203225",
+        "tran_amt": -6600
+      },
+      {
+        "tran_date": "2022-04-21",
+        "tran_type": "현금",
+        "after_balance_amt": 752600,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "235005",
+        "tran_amt": -7900
+      },
+      {
+        "tran_date": "2022-04-22",
+        "tran_type": "현금",
+        "after_balance_amt": 748300,
+        "inout_type": "출금",
+        "printed_content": "PAYCO결제",
+        "branchName": "",
+        "tran_time": "204757",
+        "tran_amt": -4300
+      },
+      {
+        "tran_date": "2022-04-24",
+        "tran_type": "현금",
+        "after_balance_amt": 739500,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "050722",
+        "tran_amt": -8800
+      },
+      {
+        "tran_date": "2022-04-25",
+        "tran_type": "현금",
+        "after_balance_amt": 735100,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "094907",
+        "tran_amt": -4400
+      },
+      {
+        "tran_date": "2022-04-27",
+        "tran_type": "현금",
+        "after_balance_amt": 731400,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "010909",
+        "tran_amt": -3700
+      },
+      {
+        "tran_date": "2022-04-27",
+        "tran_type": "현금",
+        "after_balance_amt": 723600,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "213553",
+        "tran_amt": -7800
+      },
+      {
+        "tran_date": "2022-04-28",
+        "tran_type": "현금",
+        "after_balance_amt": 717500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "210642",
+        "tran_amt": -6100
+      },
+      {
+        "tran_date": "2022-04-29",
+        "tran_type": "현금",
+        "after_balance_amt": 714000,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "121354",
+        "tran_amt": -3500
+      },
+      {
+        "tran_date": "2022-05-01",
+        "tran_type": "현금",
+        "after_balance_amt": 706900,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안남서울대점",
+        "tran_time": "000442",
+        "tran_amt": -7100
+      },
+      {
+        "tran_date": "2022-05-02",
+        "tran_type": "현금",
+        "after_balance_amt": 705000,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "113900",
+        "tran_amt": -1900
+      },
+      {
+        "tran_date": "2022-05-03",
+        "tran_type": "현금",
+        "after_balance_amt": 703000,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안남서울대점",
+        "tran_time": "054428",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "2022-05-04",
+        "tran_type": "현금",
+        "after_balance_amt": 693800,
+        "inout_type": "출금",
+        "printed_content": "현장발권-s",
+        "branchName": "",
+        "tran_time": "210430",
+        "tran_amt": -9200
+      },
+      {
+        "tran_date": "2022-05-06",
+        "tran_type": "현금",
+        "after_balance_amt": 690000,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "194143",
+        "tran_amt": -3800
+      },
+      {
+        "tran_date": "2022-05-07",
+        "tran_type": "현금",
+        "after_balance_amt": 685700,
+        "inout_type": "출금",
+        "printed_content": "장기환",
+        "branchName": "",
+        "tran_time": "212735",
+        "tran_amt": -4300
+      },
+      {
+        "tran_date": "2022-05-08",
+        "tran_type": "현금",
+        "after_balance_amt": 683400,
+        "inout_type": "출금",
+        "printed_content": "로카모빌리티(주)",
+        "branchName": "",
+        "tran_time": "221315",
+        "tran_amt": -2300
+      },
+      {
+        "tran_date": "2022-05-10",
+        "tran_type": "현금",
+        "after_balance_amt": 678000,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "032730",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "2022-05-11",
+        "tran_type": "현금",
+        "after_balance_amt": 677100,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "162024",
+        "tran_amt": -900
+      },
+      {
+        "tran_date": "2022-05-12",
+        "tran_type": "현금",
+        "after_balance_amt": 672500,
+        "inout_type": "출금",
+        "printed_content": "PAYCO결제",
+        "branchName": "",
+        "tran_time": "002624",
+        "tran_amt": -4600
+      },
+      {
+        "tran_date": "2022-05-13",
+        "tran_type": "현금",
+        "after_balance_amt": 670500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "025917",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "2022-05-14",
+        "tran_type": "현금",
+        "after_balance_amt": 663900,
+        "inout_type": "출금",
+        "printed_content": "이아헤어",
+        "branchName": "천안불당파크점",
+        "tran_time": "215138",
+        "tran_amt": -6600
+      },
+      {
+        "tran_date": "2022-05-15",
+        "tran_type": "현금",
+        "after_balance_amt": 656500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "171409",
+        "tran_amt": -7400
+      },
+      {
+        "tran_date": "2022-05-16",
+        "tran_type": "현금",
+        "after_balance_amt": 654600,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "225541",
+        "tran_amt": -1900
+      },
+      {
+        "tran_date": "2022-05-18",
+        "tran_type": "현금",
+        "after_balance_amt": 653300,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "194558",
+        "tran_amt": -1300
+      },
+      {
+        "tran_date": "2022-05-19",
+        "tran_type": "현금",
+        "after_balance_amt": 651800,
+        "inout_type": "출금",
+        "printed_content": "박상윤",
+        "branchName": "",
+        "tran_time": "032025",
+        "tran_amt": -1500
+      },
+      {
+        "tran_date": "2022-05-20",
+        "tran_type": "현금",
+        "after_balance_amt": 648200,
+        "inout_type": "출금",
+        "printed_content": "노랑통닭",
+        "branchName": "천안차암점",
+        "tran_time": "112231",
+        "tran_amt": -3600
+      },
+      {
+        "tran_date": "2022-05-21",
+        "tran_type": "현금",
+        "after_balance_amt": 644900,
+        "inout_type": "출금",
+        "printed_content": "메가MGC커피",
+        "branchName": "천안두정역점",
+        "tran_time": "212754",
+        "tran_amt": -3300
+      },
+      {
+        "tran_date": "2022-05-23",
+        "tran_type": "현금",
+        "after_balance_amt": 641000,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안차암점",
+        "tran_time": "165133",
+        "tran_amt": -3900
+      },
+      {
+        "tran_date": "2022-05-24",
+        "tran_type": "현금",
+        "after_balance_amt": 638600,
+        "inout_type": "출금",
+        "printed_content": "버거킹",
+        "branchName": "천안남서울대점",
+        "tran_time": "120524",
+        "tran_amt": -2400
+      },
+      {
+        "tran_date": "2022-05-25",
+        "tran_type": "현금",
+        "after_balance_amt": 629300,
+        "inout_type": "출금",
+        "printed_content": "1943",
+        "branchName": "천안불당파크점",
+        "tran_time": "220544",
+        "tran_amt": -9300
+      },
+      {
+        "tran_date": "2022-05-27",
+        "tran_type": "현금",
+        "after_balance_amt": 624200,
+        "inout_type": "출금",
+        "printed_content": "에그드랍",
+        "branchName": "천안남서울대점",
+        "tran_time": "192110",
+        "tran_amt": -5100
+      },
+      {
+        "tran_date": "2022-05-29",
+        "tran_type": "현금",
+        "after_balance_amt": 619600,
+        "inout_type": "출금",
+        "printed_content": "아우라피시카페",
+        "branchName": "",
+        "tran_time": "100940",
+        "tran_amt": -4600
+      },
+      {
+        "tran_date": "2022-05-31",
+        "tran_type": "현금",
+        "after_balance_amt": 613700,
+        "inout_type": "출금",
+        "printed_content": "롯데마트",
+        "branchName": "천안불당파크점",
+        "tran_time": "133911",
+        "tran_amt": -5900
+      },
+      {
+        "tran_date": "2022-06-01",
+        "tran_type": "현금",
+        "after_balance_amt": 607400,
+        "inout_type": "출금",
+        "printed_content": "세븐일레븐",
+        "branchName": "천안불당파크점",
+        "tran_time": "175601",
+        "tran_amt": -6300
+      },
+      {
+        "tran_date": "2022-06-03",
+        "tran_type": "현금",
+        "after_balance_amt": 607100,
+        "inout_type": "출금",
+        "printed_content": "1943",
+        "branchName": "천안성성점",
+        "tran_time": "144530",
+        "tran_amt": -300
+      },
+      {
+        "tran_date": "2022-06-05",
+        "tran_type": "현금",
+        "after_balance_amt": 599800,
+        "inout_type": "출금",
+        "printed_content": "구글플레이",
+        "branchName": "",
+        "tran_time": "102750",
+        "tran_amt": -7300
+      },
+      {
+        "tran_date": "2022-06-06",
+        "tran_type": "현금",
+        "after_balance_amt": 596400,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "113012",
+        "tran_amt": -3400
+      },
+      {
+        "tran_date": "2022-06-07",
+        "tran_type": "현금",
+        "after_balance_amt": 588900,
+        "inout_type": "출금",
+        "printed_content": "타이거슈가",
+        "branchName": "천안두정역점",
+        "tran_time": "010142",
+        "tran_amt": -7500
+      },
+      {
+        "tran_date": "2022-06-07",
+        "tran_type": "현금",
+        "after_balance_amt": 585900,
+        "inout_type": "출금",
+        "printed_content": "CU",
+        "branchName": "천안남서울대점",
+        "tran_time": "184246",
+        "tran_amt": -3000
+      },
+      {
+        "tran_date": "2022-06-08",
+        "tran_type": "현금",
+        "after_balance_amt": 585300,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안불당파크점",
+        "tran_time": "211911",
+        "tran_amt": -600
+      },
+      {
+        "tran_date": "2022-06-09",
+        "tran_type": "현금",
+        "after_balance_amt": 583900,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "172237",
+        "tran_amt": -1400
+      },
+      {
+        "tran_date": "2022-06-10",
+        "tran_type": "현금",
+        "after_balance_amt": 575900,
+        "inout_type": "출금",
+        "printed_content": "롯데마트",
+        "branchName": "천안차암점",
+        "tran_time": "172410",
+        "tran_amt": -8000
+      },
+      {
+        "tran_date": "2022-06-11",
+        "tran_type": "현금",
+        "after_balance_amt": 573100,
+        "inout_type": "출금",
+        "printed_content": "유튜브프리미엄",
+        "branchName": "",
+        "tran_time": "173221",
+        "tran_amt": -2800
+      },
+      {
+        "tran_date": "2022-06-12",
+        "tran_type": "현금",
+        "after_balance_amt": 570400,
+        "inout_type": "출금",
+        "printed_content": "이마트24",
+        "branchName": "천안두정역점",
+        "tran_time": "093232",
+        "tran_amt": -2700
+      },
+      {
+        "tran_date": "2022-06-12",
+        "tran_type": "현금",
+        "after_balance_amt": 563200,
+        "inout_type": "출금",
+        "printed_content": "고기,원칙",
+        "branchName": "천안불당파크점",
+        "tran_time": "145623",
+        "tran_amt": -7200
+      },
+      {
+        "tran_date": "2022-06-14",
+        "tran_type": "현금",
+        "after_balance_amt": 559600,
+        "inout_type": "출금",
+        "printed_content": "CU",
+        "branchName": "천안차암점",
+        "tran_time": "003444",
+        "tran_amt": -3600
+      },
+      {
+        "tran_date": "2022-06-15",
+        "tran_type": "현금",
+        "after_balance_amt": 554600,
+        "inout_type": "출금",
+        "printed_content": "송육권",
+        "branchName": "",
+        "tran_time": "083548",
+        "tran_amt": -5000
+      },
+      {
+        "tran_date": "2022-06-15",
+        "tran_type": "현금",
+        "after_balance_amt": 549300,
+        "inout_type": "출금",
+        "printed_content": "리차드",
+        "branchName": "천안불당파크점",
+        "tran_time": "140959",
+        "tran_amt": -5300
+      },
+      {
+        "tran_date": "2022-06-16",
+        "tran_type": "현금",
+        "after_balance_amt": 547800,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안차암점",
+        "tran_time": "035051",
+        "tran_amt": -1500
+      },
+      {
+        "tran_date": "2022-06-17",
+        "tran_type": "현금",
+        "after_balance_amt": 551500,
+        "inout_type": "입금",
+        "printed_content": "Foch",
+        "branchName": "",
+        "tran_time": "070745",
+        "tran_amt": 3700
+      },
+      {
+        "tran_date": "2022-06-19",
+        "tran_type": "현금",
+        "after_balance_amt": 543800,
+        "inout_type": "출금",
+        "printed_content": "세븐일레븐",
+        "branchName": "천안성성점",
+        "tran_time": "031719",
+        "tran_amt": -7700
+      },
+      {
+        "tran_date": "2022-06-19",
+        "tran_type": "현금",
+        "after_balance_amt": 541600,
+        "inout_type": "출금",
+        "printed_content": "롯데마트",
+        "branchName": "천안성성점",
+        "tran_time": "193825",
+        "tran_amt": -2200
+      },
+      {
+        "tran_date": "2022-06-21",
+        "tran_type": "현금",
+        "after_balance_amt": 534400,
+        "inout_type": "출금",
+        "printed_content": "문선호",
+        "branchName": "",
+        "tran_time": "163157",
+        "tran_amt": -7200
+      },
+      {
+        "tran_date": "2022-06-23",
+        "tran_type": "현금",
+        "after_balance_amt": 533500,
+        "inout_type": "출금",
+        "printed_content": "롯데리아",
+        "branchName": "천안두정역점",
+        "tran_time": "190507",
+        "tran_amt": -900
+      },
+      {
+        "tran_date": "2022-06-25",
+        "tran_type": "현금",
+        "after_balance_amt": 531500,
+        "inout_type": "출금",
+        "printed_content": "01012345678SKT",
+        "branchName": "",
+        "tran_time": "001721",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "2022-06-26",
+        "tran_type": "현금",
+        "after_balance_amt": 522500,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안봉명점",
+        "tran_time": "181422",
+        "tran_amt": -9000
+      },
+      {
+        "tran_date": "2022-06-28",
+        "tran_type": "현금",
+        "after_balance_amt": 521700,
+        "inout_type": "출금",
+        "printed_content": "생활커피",
+        "branchName": "천안불당파크점",
+        "tran_time": "123503",
+        "tran_amt": -800
+      }
+    ],
+    "balance_amt": 521700
   }
 ]}
