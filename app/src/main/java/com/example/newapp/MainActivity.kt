@@ -31,6 +31,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val name = "장기환"
+
         pieChart = findViewById(R.id.pieChart)
         pieChart2 = findViewById(R.id.pieChart2)
         initPieChart()
