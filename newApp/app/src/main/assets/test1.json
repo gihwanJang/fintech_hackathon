@@ -1,0 +1,300 @@
+{"account": [
+  {
+    "bank_code_tran": "188",
+    "bank_name": "우리은행",
+    "res_list": [
+      {
+        "tran_date": "210824707-07-30",
+        "tran_type": "현금",
+        "after_balance_amt": 31000,
+        "inout_type": "출금",
+        "printed_content": "고기,원칙",
+        "branchName": "천안성성점",
+        "tran_time": "170550",
+        "tran_amt": -2000
+      },
+      {
+        "tran_date": "268652764-03-25",
+        "tran_type": "현금",
+        "after_balance_amt": 28800,
+        "inout_type": "출금",
+        "printed_content": "타이거슈가",
+        "branchName": "천안차암점",
+        "tran_time": "180530",
+        "tran_amt": -4200
+      },
+      {
+        "tran_date": "270142004-02-11",
+        "tran_type": "현금",
+        "after_balance_amt": 27100,
+        "inout_type": "출금",
+        "printed_content": "1943",
+        "branchName": "천안두정역점",
+        "tran_time": "031958",
+        "tran_amt": -5900
+      },
+      {
+        "tran_date": "275040733-12-23",
+        "tran_type": "현금",
+        "after_balance_amt": 28200,
+        "inout_type": "출금",
+        "printed_content": "60계",
+        "branchName": "천안차암점",
+        "tran_time": "172228",
+        "tran_amt": -4800
+      }
+    ],
+    "balance_amt": 33000
+  },
+  {
+    "bank_code_tran": "609",
+    "bank_name": "신한은행",
+    "res_list": [
+      {
+        "tran_date": "162985207-01-31",
+        "tran_type": "현금",
+        "after_balance_amt": 84400,
+        "inout_type": "출금",
+        "printed_content": "1943",
+        "branchName": "천안성성점",
+        "tran_time": "044309",
+        "tran_amt": -600
+      },
+      {
+        "tran_date": "289912046-05-20",
+        "tran_type": "현금",
+        "after_balance_amt": 81200,
+        "inout_type": "출금",
+        "printed_content": "1943",
+        "branchName": "천안봉명점",
+        "tran_time": "190520",
+        "tran_amt": -3800
+      }
+    ],
+    "balance_amt": 85000
+  },
+  {
+    "bank_code_tran": "006",
+    "bank_name": "국민은행",
+    "res_list": [
+      {
+        "tran_date": "70629447-01-05",
+        "tran_type": "현금",
+        "after_balance_amt": 49500,
+        "inout_type": "출금",
+        "printed_content": "60계",
+        "branchName": "천안남서울대점",
+        "tran_time": "193852",
+        "tran_amt": -5500
+      },
+      {
+        "tran_date": "252896939-02-04",
+        "tran_type": "현금",
+        "after_balance_amt": 50400,
+        "inout_type": "출금",
+        "printed_content": "피자나라 치킨공주",
+        "branchName": "천안차암점",
+        "tran_time": "165838",
+        "tran_amt": -4600
+      },
+      {
+        "tran_date": "256205829-12-23",
+        "tran_type": "현금",
+        "after_balance_amt": 51500,
+        "inout_type": "출금",
+        "printed_content": "노랑통닭",
+        "branchName": "천안두정역점",
+        "tran_time": "173436",
+        "tran_amt": -3500
+      },
+      {
+        "tran_date": "260938079-12-01",
+        "tran_type": "현금",
+        "after_balance_amt": 49600,
+        "inout_type": "출금",
+        "printed_content": "피자나라 치킨공주",
+        "branchName": "천안남서울대점",
+        "tran_time": "064147",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "270138599-11-04",
+        "tran_type": "현금",
+        "after_balance_amt": 48900,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안봉명점",
+        "tran_time": "071424",
+        "tran_amt": -6100
+      },
+      {
+        "tran_date": "275256601-06-01",
+        "tran_type": "현금",
+        "after_balance_amt": 50500,
+        "inout_type": "출금",
+        "printed_content": "에그드랍",
+        "branchName": "천안차암점",
+        "tran_time": "172951",
+        "tran_amt": -4500
+      },
+      {
+        "tran_date": "289467068-09-15",
+        "tran_type": "현금",
+        "after_balance_amt": 47800,
+        "inout_type": "출금",
+        "printed_content": "피자나라 치킨공주",
+        "branchName": "천안남서울대점",
+        "tran_time": "162459",
+        "tran_amt": -7200
+      },
+      {
+        "tran_date": "291093621-11-12",
+        "tran_type": "현금",
+        "after_balance_amt": 45700,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안봉명점",
+        "tran_time": "125458",
+        "tran_amt": -9300
+      },
+      {
+        "tran_date": "292033481-02-14",
+        "tran_type": "현금",
+        "after_balance_amt": 52000,
+        "inout_type": "출금",
+        "printed_content": "피자나라 치킨공주",
+        "branchName": "천안차암점",
+        "tran_time": "134947",
+        "tran_amt": -3000
+      },
+      {
+        "tran_date": "292278483-09-10",
+        "tran_type": "현금",
+        "after_balance_amt": 45500,
+        "inout_type": "출금",
+        "printed_content": "타이거슈가",
+        "branchName": "천안봉명점",
+        "tran_time": "053050",
+        "tran_amt": -9500
+      },
+      {
+        "tran_date": "292278991-05-10",
+        "tran_type": "현금",
+        "after_balance_amt": 48200,
+        "inout_type": "출금",
+        "printed_content": "60계",
+        "branchName": "천안남서울대점",
+        "tran_time": "130621",
+        "tran_amt": -6800
+      }
+    ],
+    "balance_amt": 55000
+  },
+  {
+    "bank_code_tran": "672",
+    "bank_name": "토스뱅크",
+    "res_list": [
+      {
+        "tran_date": "1762574-10-27",
+        "tran_type": "현금",
+        "after_balance_amt": 54400,
+        "inout_type": "출금",
+        "printed_content": "화로상회",
+        "branchName": "천안남서울대점",
+        "tran_time": "224424",
+        "tran_amt": -8600
+      },
+      {
+        "tran_date": "110892294-12-18",
+        "tran_type": "현금",
+        "after_balance_amt": 58900,
+        "inout_type": "출금",
+        "printed_content": "에그드랍",
+        "branchName": "천안불당파크점",
+        "tran_time": "185714",
+        "tran_amt": -4100
+      },
+      {
+        "tran_date": "256895664-06-04",
+        "tran_type": "현금",
+        "after_balance_amt": 57800,
+        "inout_type": "출금",
+        "printed_content": "이차돌",
+        "branchName": "천안남서울대점",
+        "tran_time": "073100",
+        "tran_amt": -5200
+      },
+      {
+        "tran_date": "289459615-12-14",
+        "tran_type": "현금",
+        "after_balance_amt": 57600,
+        "inout_type": "출금",
+        "printed_content": "에그드랍",
+        "branchName": "천안두정역점",
+        "tran_time": "084007",
+        "tran_amt": -5400
+      },
+      {
+        "tran_date": "290200998-06-24",
+        "tran_type": "현금",
+        "after_balance_amt": 59300,
+        "inout_type": "출금",
+        "printed_content": "화로상회",
+        "branchName": "천안남서울대점",
+        "tran_time": "001127",
+        "tran_amt": -3700
+      },
+      {
+        "tran_date": "292194278-11-07",
+        "tran_type": "현금",
+        "after_balance_amt": 54500,
+        "inout_type": "출금",
+        "printed_content": "빽다방",
+        "branchName": "천안남서울대점",
+        "tran_time": "055019",
+        "tran_amt": -8500
+      },
+      {
+        "tran_date": "292230903-04-26",
+        "tran_type": "현금",
+        "after_balance_amt": 54400,
+        "inout_type": "출금",
+        "printed_content": "맛없으면 환불해주는 장군집",
+        "branchName": "천안불당파크점",
+        "tran_time": "011533",
+        "tran_amt": -8600
+      },
+      {
+        "tran_date": "292259306-03-18",
+        "tran_type": "현금",
+        "after_balance_amt": 62100,
+        "inout_type": "출금",
+        "printed_content": "타이거슈가",
+        "branchName": "천안두정역점",
+        "tran_time": "100430",
+        "tran_amt": -900
+      },
+      {
+        "tran_date": "292266955-01-26",
+        "tran_type": "현금",
+        "after_balance_amt": 58300,
+        "inout_type": "출금",
+        "printed_content": "써브웨이",
+        "branchName": "천안남서울대점",
+        "tran_time": "142257",
+        "tran_amt": -4700
+      },
+      {
+        "tran_date": "292271191-11-18",
+        "tran_type": "현금",
+        "after_balance_amt": 56200,
+        "inout_type": "출금",
+        "printed_content": "에그드랍",
+        "branchName": "천안불당파크점",
+        "tran_time": "010307",
+        "tran_amt": -6800
+      }
+    ],
+    "balance_amt": 63000
+  }
+]}

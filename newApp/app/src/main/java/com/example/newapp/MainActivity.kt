@@ -1,12 +1,15 @@
 package com.example.newapp
 
 import android.app.ActivityOptions
+import android.content.ContentValues.TAG
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
+import android.widget.ListView
 import com.github.mikephil.charting.animation.Easing
 import com.github.mikephil.charting.charts.PieChart
 import com.github.mikephil.charting.components.Legend
@@ -15,6 +18,8 @@ import com.github.mikephil.charting.data.PieDataSet
 import com.github.mikephil.charting.data.PieEntry
 import com.github.mikephil.charting.formatter.PercentFormatter
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import org.json.JSONArray
+import org.json.JSONObject
 
 class MainActivity : AppCompatActivity() {
     private  lateinit var listButton: Button
@@ -27,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        listButton = findViewById(R.id.list_button)
+        //listButton = findViewById(R.id.account_button)
         pieChart = findViewById(R.id.pieChart)
         pieChart2 = findViewById(R.id.pieChart2)
         initPieChart()
@@ -35,10 +40,19 @@ class MainActivity : AppCompatActivity() {
         setDataToPieChart()
         setDataToPieChart2()
 
+        val data = getData()
+
+        val adapter = HomeDataAdapter(this,data);
+        val listView = findViewById<ListView>(R.id.listView)
+
+        listView.adapter = adapter;
+        /*
         listButton.setOnClickListener {
             val intent = Intent(this,Account::class.java)
             startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
         }
+        */
+
         bn.setOnNavigationItemSelectedListener{
             when(it.itemId){
                 R.id.ic_home -> {
@@ -147,5 +161,25 @@ class MainActivity : AppCompatActivity() {
         pieChart2.setDrawCenterText(true);
         pieChart2.centerText = "이번 달 자산비율"
         pieChart2.invalidate()
+    }
+    private fun getData():ArrayList<HomeData> {
+
+        val listdata = ArrayList<HomeData>();
+
+        val jsonString = assets.open("test1.json").reader().readText();
+        val jObject = JSONObject(jsonString);
+        val data = JSONArray(jObject.getString("account"))
+
+        for(i in 0 until data.length()){
+            val jsonObject = data.getJSONObject(i)
+
+            val bankName = jsonObject.getString("bank_name");
+            val balanceAmt = jsonObject.getString("balance_amt");
+
+            listdata.add(HomeData(bankName, balanceAmt.toInt()))
+        }
+
+        Log.d(TAG,listdata.toString())
+        return listdata;
     }
 }
