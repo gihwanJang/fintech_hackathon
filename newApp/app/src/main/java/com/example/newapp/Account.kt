@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 import android.widget.ListView
+import android.widget.TextView
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.json.JSONArray
 import org.json.JSONObject
@@ -40,9 +41,6 @@ class Account : AppCompatActivity() {
             true
         }
 
-
-
-
         val position = intent.getIntExtra("position",0)
         val totalAmt = getTotalAmt(position)
 
@@ -73,7 +71,6 @@ class Account : AppCompatActivity() {
         val adapter = ListDataAdapter(this,resListData);
         val listView = findViewById<ListView>(R.id.acount_list)
         listView.adapter = adapter
-
     }
     fun getData(position:Int):String {
 
