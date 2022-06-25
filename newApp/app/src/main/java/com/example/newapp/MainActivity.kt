@@ -1,15 +1,12 @@
 package com.example.newapp
 
 import android.app.ActivityOptions
-import android.content.ContentValues.TAG
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.widget.Button
 import android.widget.ListView
+import android.widget.TextView
 import com.github.mikephil.charting.animation.Easing
 import com.github.mikephil.charting.charts.PieChart
 import com.github.mikephil.charting.components.Legend
@@ -40,14 +37,25 @@ class MainActivity : AppCompatActivity() {
 
         val data = getData()
 
+        val totalAmtList = arrayListOf<Int>()
+
+        for(i in 0 until data.size-1){
+            totalAmtList.add(data[i].balAmount)
+        }
+
+        intent.putExtra("totalAmtList",totalAmtList)
+
         val adapter = HomeDataAdapter(this,data);
         val listView = findViewById<ListView>(R.id.listView)
 
         listView.adapter = adapter;
 
         listView.setOnItemClickListener { parent, view, position, id ->
-            val element = adapter.DataList
             val intent = Intent(this, Account::class.java)
+
+
+            intent.putExtra("position",position)
+
             startActivity(intent)
         }
 
@@ -173,11 +181,17 @@ class MainActivity : AppCompatActivity() {
 
             val bankName = jsonObject.getString("bank_name");
             val balanceAmt = jsonObject.getString("balance_amt");
+            val accountNumber = jsonObject.getString("account_number");
 
-            listdata.add(HomeData(bankName, balanceAmt.toInt()))
+            listdata.add(HomeData(bankName, balanceAmt.toInt(),accountNumber))
         }
-
-        Log.d(TAG,listdata.toString())
         return listdata;
+    }
+
+    private fun datFormat(textView:TextView){
+        val str = textView.text.toString()
+        for(i in 0 until str.length step(3)){
+            str.plus(',')
+        }
     }
 }

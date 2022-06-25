@@ -25,11 +25,13 @@ class HomeDataAdapter(val context: Context?, val DataList: ArrayList<HomeData>):
 
         val bankName = view.findViewById<TextView>(R.id.bankName)
         val balAmount = view.findViewById<TextView>(R.id.balAmount)
+        val accountNum = view.findViewById<TextView>(R.id.accountNum)
 
         val data = DataList[p0]
 
         bankName.text = data.bankName
         balAmount.text = data.balAmount.toString()
+        accountNum.text = data.accountNumber
 
         return view
     }

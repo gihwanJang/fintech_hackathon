@@ -43,7 +43,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
-                android:text="소비통장"
+                android:text="소비통장  "
                 android:textSize="16sp" />
 
             <SeekBar
@@ -74,7 +74,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
-                android:text="투자통장"
+                android:text="투자통장  "
                 android:textSize="16sp" />
 
             <SeekBar
@@ -104,7 +104,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="38dp"
-                android:text="비상금 통장"
+                android:text="비상금통장"
                 android:textSize="16sp" />
 
             <SeekBar
