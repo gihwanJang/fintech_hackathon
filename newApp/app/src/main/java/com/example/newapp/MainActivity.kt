@@ -5,6 +5,7 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.ListView
 import android.widget.TextView
 import com.github.mikephil.charting.animation.Easing
@@ -17,6 +18,9 @@ import com.github.mikephil.charting.formatter.PercentFormatter
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.json.JSONArray
 import org.json.JSONObject
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 
 class MainActivity : AppCompatActivity() {
     private lateinit var pieChart: PieChart
@@ -36,6 +40,7 @@ class MainActivity : AppCompatActivity() {
         setDataToPieChart2()
 
         val data = getData()
+        val newData = getPieChartData()
 
         val totalAmtList = arrayListOf<Int>()
 
@@ -111,23 +116,32 @@ class MainActivity : AppCompatActivity() {
     private fun setDataToPieChart() {
         pieChart.setUsePercentValues(true)
         val dataEntries = ArrayList<PieEntry>()
-        dataEntries.add(PieEntry(30f, "쇼핑"))
-        dataEntries.add(PieEntry(30f, "식비"))
-        dataEntries.add(PieEntry(40f, "고정"))
+        val valuMap = getMap(2)
 
+        for((k,v) in valuMap){
+            println(v)
+            dataEntries.add(PieEntry(v, k))
+            println()
+        }
         val colors: ArrayList<Int> = ArrayList()
         colors.add(Color.parseColor("#4DD0E1"))
         colors.add(Color.parseColor("#FFF176"))
         colors.add(Color.parseColor("#FF8A65"))
+        colors.add(Color.parseColor("#4DD0E1"))
+        colors.add(Color.parseColor("#FFF176"))
+        colors.add(Color.parseColor("#FF8A65"))
+        colors.add(Color.parseColor("#4DD0E1"))
+        colors.add(Color.parseColor("#FFF176"))
+
 
         val dataSet = PieDataSet(dataEntries, "")
         val data = PieData(dataSet)
 
         data.setValueFormatter(PercentFormatter())
-        dataSet.sliceSpace = 3f
+        dataSet.sliceSpace = 1f
         dataSet.colors = colors
         pieChart.data = data
-        data.setValueTextSize(15f)
+        data.setValueTextSize(14f)
         pieChart.setExtraOffsets(5f, 10f, 5f, 5f)
         pieChart.animateY(1400, Easing.EaseInOutQuad)
         pieChart.holeRadius = 58f
@@ -141,23 +155,29 @@ class MainActivity : AppCompatActivity() {
     private fun setDataToPieChart2() {
         pieChart2.setUsePercentValues(true)
         val dataEntries = ArrayList<PieEntry>()
-        dataEntries.add(PieEntry(30f, "쇼핑"))
-        dataEntries.add(PieEntry(30f, "식비"))
-        dataEntries.add(PieEntry(40f, "고정"))
+        val valuMap = getMap(1)
+
+        for((k,v) in valuMap)
+            dataEntries.add(PieEntry(v, k))
 
         val colors: ArrayList<Int> = ArrayList()
         colors.add(Color.parseColor("#4DD0E1"))
         colors.add(Color.parseColor("#FFF176"))
         colors.add(Color.parseColor("#FF8A65"))
+        colors.add(Color.parseColor("#4DD0E1"))
+        colors.add(Color.parseColor("#FFF176"))
+        colors.add(Color.parseColor("#FF8A65"))
+        colors.add(Color.parseColor("#4DD0E1"))
+        colors.add(Color.parseColor("#FFF176"))
 
         val dataSet = PieDataSet(dataEntries, "")
         val data = PieData(dataSet)
 
         data.setValueFormatter(PercentFormatter())
-        dataSet.sliceSpace = 3f
+        dataSet.sliceSpace = 1f
         dataSet.colors = colors
         pieChart2.data = data
-        data.setValueTextSize(15f)
+        data.setValueTextSize(14f)
         pieChart2.setExtraOffsets(5f, 10f, 5f, 5f)
         pieChart2.animateY(1400, Easing.EaseInOutQuad)
         pieChart2.holeRadius = 58f
@@ -168,11 +188,36 @@ class MainActivity : AppCompatActivity() {
         pieChart2.centerText = "이번 달 자산비율"
         pieChart2.invalidate()
     }
+    private fun getPieChartData(): ArrayList<category> {
+        val listdat = ArrayList<category>();
+
+        val jsonString = assets.open("category.json").reader().readText();
+
+        val jObject = JSONObject(jsonString);
+        val data = JSONArray(jObject.getString("account"))
+
+
+
+        for(i in 0 until data.length()){
+            val jsonObject = data.getJSONObject(i)
+            val obj = jsonObject.getJSONArray("content")
+            var list = ArrayList<String>()
+            for (j in 0 until obj.length()) {
+                list.add(obj.getString(j))
+            }
+
+
+            listdat.add(category(jsonObject.getString("category"),list))
+        }
+
+        return listdat
+    }
+
     private fun getData():ArrayList<HomeData> {
 
         val listdata = ArrayList<HomeData>();
 
-        val jsonString = assets.open("test1.json").reader().readText();
+        val jsonString = assets.open("transaction.json").reader().readText();
         val jObject = JSONObject(jsonString);
         val data = JSONArray(jObject.getString("account"))
 
@@ -188,10 +233,66 @@ class MainActivity : AppCompatActivity() {
         return listdata;
     }
 
-    private fun datFormat(textView:TextView){
-        val str = textView.text.toString()
-        for(i in 0 until str.length step(3)){
-            str.plus(',')
+    private fun getResData():ArrayList<resList>{
+
+        val resListData = ArrayList<resList>();
+
+        val jsonString = assets.open("transaction.json").reader().readText();
+        val jObject = JSONObject(jsonString);
+        val data = JSONArray(jObject.getString("account"))
+
+        for(i in 0 until data.length()){
+            val jsonObject = data.getJSONObject(i)
+            val obj = jsonObject.getJSONArray("res_list")
+            for(j in 0 until obj.length()) {
+                val obb = obj.getJSONObject(j)
+                val tranDate = obb.getString("tran_date")
+                val tranType = obb.getString("tran_type")
+                val afterBalanceAmt = obb.getString("after_balance_amt")
+                val inoutType = obb.getString("inout_type")
+                val printedContent = obb.getString("printed_content")
+                val branchName = obb.getString("branchName")
+                val tranTime = obb.getString("tran_time")
+                val tranAmt = obb.getString("tran_amt")
+                resListData.add(resList(tranDate,tranType, afterBalanceAmt.toInt(),inoutType,printedContent,branchName,tranTime,tranAmt.toInt()))
+            }
         }
+        return resListData;
+    }
+    public fun getMap(type:Int): HashMap<String, Float> {
+        val map = HashMap<String,Float>()
+        val categoryList = getPieChartData()
+        val resList = getResData()
+
+        for(i in 0 until categoryList.size)
+            map.put(categoryList.get(i).name,0f)
+
+        val curr = resList.get(resList.size-1)
+        val next = curr.tranDate.substring(5)
+
+        val current = Integer.parseInt(next.replace("-",""))
+
+        for(i in 0 until  resList.size){
+            if (type == 1) {
+                if (current - resList.get(i).tranDate.substring(5).replace("-", "").toInt() < 100) {
+                    for (j in 0 until categoryList.size) {
+                        if (categoryList.get(j).content.contains(resList.get(i).printedContent) && resList.get(i).tranAmt.toFloat() < 0) {
+                            map[categoryList.get(j).name] = map[categoryList.get(j).name]!! - resList.get(i).tranAmt.toFloat()
+                        }
+                    }
+                }
+            } else {
+                if (current - resList.get(i).tranDate.substring(5).replace("-", "").toInt() > 100
+                    && current - resList.get(i).tranDate.substring(5).replace("-", "").toInt() < 200
+                ) {
+                    for (cate in categoryList) {
+                        if (cate.content.contains(resList.get(i).printedContent) && resList.get(i).tranAmt.toFloat() < 0) {
+                            map[cate.name] = map[cate.name]!! - resList.get(i).tranAmt.toFloat()
+                        }
+                    }
+                }
+            }
+        }
+        return map
     }
 }

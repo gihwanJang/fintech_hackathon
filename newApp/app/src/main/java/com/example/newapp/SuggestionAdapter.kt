@@ -26,7 +26,6 @@ class SuggestionAdapter(val context: Context?, val RecommendList: ArrayList<Card
         val recommendCard = view.findViewById<TextView>(R.id.recommend_card)
         val ratio1 = view.findViewById<TextView>(R.id.ratio1)
         val ratio2 = view.findViewById<TextView>(R.id.ratio2)
-        val ratio3 = view.findViewById<TextView>(R.id.ratio3)
         val company = view.findViewById<TextView>(R.id.company)
         val fee = view.findViewById<TextView>(R.id.fee)
 
@@ -42,9 +41,6 @@ class SuggestionAdapter(val context: Context?, val RecommendList: ArrayList<Card
                 num++
             }else if(num == 1) {
                 ratio2.text = "${key} : ${value}%"
-                num++
-            }else if(num == 2){
-                ratio3.text = "${key} : ${value}%"
                 num++
             }
         }

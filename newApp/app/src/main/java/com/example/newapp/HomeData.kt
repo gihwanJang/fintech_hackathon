@@ -1,5 +1,7 @@
 package com.example.newapp
 
+import java.util.*
+
 class HomeData(val bankName:String, val balAmount:Int, val accountNumber:String) {
 }
 
@@ -17,4 +19,9 @@ class CardList(
     val company:String,
     val fee:String,
     val sortratio:MutableMap<String,Double>
+)
+
+class category(
+    val name:String,
+    val content:ArrayList<String>
 )

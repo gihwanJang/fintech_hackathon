@@ -1,0 +1,19 @@
+{
+	"account": [
+	{
+		"content": "01012345678SKT",
+		"day": 5,
+		"amount": -55000
+	},
+	{
+		"content": "유튜브프리미엄",
+		"day": 25,
+		"amount": -8900
+	},
+	{
+		"content": "Foch",
+		"day": 20,
+		"amount": 1000000
+	}
+	]
+}

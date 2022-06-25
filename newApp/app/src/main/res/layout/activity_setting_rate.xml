@@ -23,7 +23,7 @@
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="388dp"
-        android:layout_height="213dp"
+        android:layout_height="212dp"
         android:background="#FEFEFEFE"
         android:elevation="20dp"
         android:orientation="vertical"
@@ -50,7 +50,7 @@
                 android:id="@+id/consumSeekBar"
                 style="@android:style/Widget.SeekBar"
                 android:layout_width="215dp"
-                android:layout_height="28dp"
+                android:layout_height="13dp"
                 android:layout_marginTop="20dp"
                 android:max="10"
                 android:progress="0" />
@@ -80,8 +80,8 @@
             <SeekBar
                 android:id="@+id/investmentSeekBar"
                 style="@android:style/Widget.SeekBar"
-                android:layout_width="215dp"
-                android:layout_height="28dp"
+                android:layout_width="223dp"
+                android:layout_height="13dp"
                 android:layout_marginTop="20dp"
                 android:max="10"
                 android:progress="0" />
@@ -110,8 +110,8 @@
             <SeekBar
                 android:id="@+id/emergencyFundSeekBar"
                 style="@android:style/Widget.SeekBar"
-                android:layout_width="215dp"
-                android:layout_height="28dp"
+                android:layout_width="218dp"
+                android:layout_height="13dp"
                 android:layout_marginTop="20dp"
                 android:max="10"
                 android:progress="0" />

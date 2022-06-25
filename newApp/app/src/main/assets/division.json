@@ -1,0 +1,22 @@
+{
+    "account": [
+    {
+        "account_number": "857-482-392082",
+        "bank_code": "045",
+        "receive_ratio": 0.6,
+        "type": "소비"
+    },
+    {
+        "account_number": "310-757-550512",
+        "bank_code": "004",
+        "receive_ratio": 0.3,
+        "type": "투자"
+    },
+    {
+        "account_number": "434-234-247902",
+        "bank_code": "092",
+        "receive_ratio": 0.1,
+        "type": "비상금"
+    }
+    ]
+}
