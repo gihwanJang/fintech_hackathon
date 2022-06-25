@@ -6,8 +6,8 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.ListView
-import android.widget.TextView
 import com.github.mikephil.charting.animation.Easing
 import com.github.mikephil.charting.charts.PieChart
 import com.github.mikephil.charting.components.Legend
@@ -18,6 +18,7 @@ import com.github.mikephil.charting.formatter.PercentFormatter
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.json.JSONArray
 import org.json.JSONObject
+import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
@@ -31,7 +32,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        val pButton:Button = findViewById(R.id.plus_button)
+        val date = Date(SimpleDateFormat("yyyy-MM-dd").parse("2022-03-15").time)
         pieChart = findViewById(R.id.pieChart)
         pieChart2 = findViewById(R.id.pieChart2)
         initPieChart()
@@ -40,9 +42,9 @@ class MainActivity : AppCompatActivity() {
         setDataToPieChart2()
 
         val data = getData()
-        val newData = getPieChartData()
-
         val totalAmtList = arrayListOf<Int>()
+        val adapter = HomeDataAdapter(this,data);
+        val listView = findViewById<ListView>(R.id.listView)
 
         for(i in 0 until data.size-1){
             totalAmtList.add(data[i].balAmount)
@@ -50,17 +52,12 @@ class MainActivity : AppCompatActivity() {
 
         intent.putExtra("totalAmtList",totalAmtList)
 
-        val adapter = HomeDataAdapter(this,data);
-        val listView = findViewById<ListView>(R.id.listView)
-
+        pButton.setBackgroundColor(Color.BLACK)
         listView.adapter = adapter;
 
         listView.setOnItemClickListener { parent, view, position, id ->
             val intent = Intent(this, Account::class.java)
-
-
             intent.putExtra("position",position)
-
             startActivity(intent)
         }
 
@@ -295,4 +292,22 @@ class MainActivity : AppCompatActivity() {
         }
         return map
     }
+
+    fun getTransactionDate(date: Date): JSONObject {
+        var jsonString = JSONObject(assets.open("transaction.json").reader().readText())
+        val base = date.time
+        var accounts = jsonString.getJSONArray("account")
+        for(i in 0 until accounts.length()) {
+            var res_list = accounts.getJSONObject(i).getJSONArray("res_list")
+            for(j in res_list.length() - 1 downTo 0) {
+                var res = res_list.getJSONObject(j)
+                var t1 = SimpleDateFormat("yyyy-MM-dd").parse(res.getString("tran_date")).time
+                if(t1 > base)
+                    res_list.remove(j)
+            }
+        }
+        Log.d("transcation", jsonString.toString(4))
+        return jsonString
+    }
+
 }
