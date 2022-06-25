@@ -18,7 +18,8 @@ class CardList(
     val name:String,
     val company:String,
     val fee:String,
-    val sortratio:MutableMap<String,Double>
+    val sortratio:MutableMap<String,Float>,
+    var discountAmt:Float=0f
 )
 
 class category(

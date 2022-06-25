@@ -124,14 +124,14 @@ class MainActivity : AppCompatActivity() {
             println()
         }
         val colors: ArrayList<Int> = ArrayList()
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
-        colors.add(Color.parseColor("#FF8A65"))
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
-        colors.add(Color.parseColor("#FF8A65"))
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
+        colors.add(Color.parseColor("#fab1a0"))
+        colors.add(Color.parseColor("#ffeaa7"))
+        colors.add(Color.parseColor("#e17055"))
+        colors.add(Color.parseColor("#fdcb6e"))
+        colors.add(Color.parseColor("#00cec9"))
+        colors.add(Color.parseColor("#81ecec"))
+        colors.add(Color.parseColor("#74b9ff"))
+        colors.add(Color.parseColor("#a29bfe"))
 
 
         val dataSet = PieDataSet(dataEntries, "")
@@ -149,7 +149,7 @@ class MainActivity : AppCompatActivity() {
         pieChart.isDrawHoleEnabled = true
         pieChart.setHoleColor(Color.WHITE)
         pieChart.setDrawCenterText(true);
-        pieChart.centerText = "지난 달 자산비율"
+        pieChart.centerText = "지난 달 소비비율"
         pieChart.invalidate()
     }
     private fun setDataToPieChart2() {
@@ -161,14 +161,14 @@ class MainActivity : AppCompatActivity() {
             dataEntries.add(PieEntry(v, k))
 
         val colors: ArrayList<Int> = ArrayList()
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
-        colors.add(Color.parseColor("#FF8A65"))
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
-        colors.add(Color.parseColor("#FF8A65"))
-        colors.add(Color.parseColor("#4DD0E1"))
-        colors.add(Color.parseColor("#FFF176"))
+        colors.add(Color.parseColor("#fab1a0"))
+        colors.add(Color.parseColor("#ffeaa7"))
+        colors.add(Color.parseColor("#e17055"))
+        colors.add(Color.parseColor("#fdcb6e"))
+        colors.add(Color.parseColor("#00cec9"))
+        colors.add(Color.parseColor("#81ecec"))
+        colors.add(Color.parseColor("#74b9ff"))
+        colors.add(Color.parseColor("#a29bfe"))
 
         val dataSet = PieDataSet(dataEntries, "")
         val data = PieData(dataSet)
@@ -185,7 +185,7 @@ class MainActivity : AppCompatActivity() {
         pieChart2.isDrawHoleEnabled = true
         pieChart2.setHoleColor(Color.WHITE)
         pieChart2.setDrawCenterText(true);
-        pieChart2.centerText = "이번 달 자산비율"
+        pieChart2.centerText = "이번 달 소비비율"
         pieChart2.invalidate()
     }
     private fun getPieChartData(): ArrayList<category> {

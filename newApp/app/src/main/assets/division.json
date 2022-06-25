@@ -1,5 +1,4 @@
-{
-    "account": [
+[
     {
         "account_number": "857-482-392082",
         "bank_code": "045",
@@ -18,5 +17,4 @@
         "receive_ratio": 0.1,
         "type": "비상금"
     }
-    ]
-}
+]

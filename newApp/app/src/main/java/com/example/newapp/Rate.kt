@@ -5,14 +5,10 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
-import com.github.mikephil.charting.charts.BarChart
+import android.widget.ListView
 import com.github.mikephil.charting.charts.HorizontalBarChart
-import com.github.mikephil.charting.components.Description
-import com.github.mikephil.charting.components.Legend
 import com.github.mikephil.charting.components.XAxis
-import com.github.mikephil.charting.components.YAxis
 import com.github.mikephil.charting.data.BarData
 import com.github.mikephil.charting.data.BarDataSet
 import com.github.mikephil.charting.data.BarEntry
@@ -21,7 +17,6 @@ import com.github.mikephil.charting.interfaces.datasets.IBarDataSet
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.json.JSONArray
 import org.json.JSONObject
-import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap
 
@@ -44,7 +39,11 @@ class Rate : AppCompatActivity() {
         setRightXaxis()
         createBarChart()
 
-        settingButton.setBackgroundColor(Color.WHITE)
+        val listView = findViewById<ListView>(R.id.fixedList)
+        val adapter = FixedPayAdapter(this,dataSplit());
+        listView.adapter = adapter
+
+        settingButton.setBackgroundColor(Color.argb(100,239,239,239))
         settingButton.setOnClickListener {
             val intent = Intent(this, SettingRate::class.java)
             startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
@@ -177,17 +176,14 @@ class Rate : AppCompatActivity() {
         values2.add(BarEntry(2.0f, 28000.0f))
         values2.add(BarEntry(1.0f, 10000.0f))
 
-
-
-
-        colorList.add(Color.parseColor("#4DD0E1"))
-        colorList.add(Color.parseColor("#FFF176"))
-        colorList.add(Color.parseColor("#FF8A65"))
-        colorList.add(Color.parseColor("#4DD0E1"))
-        colorList.add(Color.parseColor("#FFF176"))
-        colorList.add(Color.parseColor("#FF8A65"))
-        colorList.add(Color.parseColor("#4DD0E1"))
-        colorList.add(Color.parseColor("#FFF176"))
+        colorList.add(Color.parseColor("#fab1a0"))
+        colorList.add(Color.parseColor("#ffeaa7"))
+        colorList.add(Color.parseColor("#e17055"))
+        colorList.add(Color.parseColor("#fdcb6e"))
+        colorList.add(Color.parseColor("#00cec9"))
+        colorList.add(Color.parseColor("#81ecec"))
+        colorList.add(Color.parseColor("#74b9ff"))
+        colorList.add(Color.parseColor("#a29bfe"))
 
 
         if (barChart1.data != null && barChart1.data.dataSetCount > 1) {
@@ -348,33 +344,31 @@ class Rate : AppCompatActivity() {
         return map
     }
 
-    private fun fixedPay(){
-        val matrix = arrayOf(arrayOf(ArrayList<String>()))
+    private fun fixedPay(): ArrayList<String> {
+        val matrix = Array(12,{Array(31, {ArrayList<String>()})})
         val result = ArrayList<String>()
         for (i in 0..11) {
             for (j in 0..30) {
-                matrix[i][j] = ArrayList()
+                matrix[i][j] = ArrayList<String>()
             }
         }
         val res = getResData()
-        res.sortBy { it.tranDate.replace("-", "").toInt() }
+        res.sortBy { -it.tranDate.replace("-", "").toInt()}
         val current = res[0].tranDate.replace("-", "").toInt()
         val maxmonth = current % 10000 / 100
         for (a in res) {
             if (current - a.tranDate.replace("-", "").toInt() > 199) break
             val time = a.tranDate.replace("-", "").toInt() % 10000
-            println(a.printedContent + " " + a.tranAmt + " " + a.tranDate)
             matrix[time / 100 - 1][time % 100 - 1].add(a.printedContent + " " + a.tranAmt)
         }
         for (i in maxmonth - 1 downTo maxmonth - 2) {
             for (j in 30 downTo 0) {
                 if (matrix[i - 1][j].size != 0) {
                     for (tmp in matrix[i][j]) {
-                        val a = tmp.split(" ").toTypedArray()
+                        val a = tmp
                         for (tmp2 in matrix[i - 1][j]) {
-                            val b = tmp2.split(" ").toTypedArray()
+                            val b = tmp2
                             if (a[0] == b[0]) {
-                                println(tmp + " " + (1 + j))
                                 result.add(tmp + " " + (1 + j))
                                 break
                             }
@@ -383,5 +377,15 @@ class Rate : AppCompatActivity() {
                 }
             }
         }
+        return result
+    }
+    private fun dataSplit(): ArrayList<List<String>> {
+        val result=ArrayList<List<String>>()
+        val list = fixedPay()
+        for(s in list){
+            var word = s.split(" ")
+            result.add(word)
+        }
+        return result
     }
 }

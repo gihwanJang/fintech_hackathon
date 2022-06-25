@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 
-class SuggestionAdapter(val context: Context?, val RecommendList: ArrayList<CardList>): BaseAdapter()  {
+class SuggestionAdapter(val context: Context?, val RecommendList: List<CardList>): BaseAdapter()  {
     override fun getCount(): Int {
         return RecommendList.size
     }
@@ -25,25 +25,14 @@ class SuggestionAdapter(val context: Context?, val RecommendList: ArrayList<Card
 
         val recommendCard = view.findViewById<TextView>(R.id.recommend_card)
         val ratio1 = view.findViewById<TextView>(R.id.ratio1)
-        val ratio2 = view.findViewById<TextView>(R.id.ratio2)
         val company = view.findViewById<TextView>(R.id.company)
         val fee = view.findViewById<TextView>(R.id.fee)
 
         recommendCard.text = RecommendList[p0].name
-        fee.text = RecommendList[p0].fee
+        fee.text = "연회비"+RecommendList[p0].fee
         company.text = RecommendList[p0].company
 
-        var num = 0;
-
-        for((key,value) in RecommendList[p0].sortratio){
-            if(num == 0) {
-                ratio1.text = "${key} : ${value}%"
-                num++
-            }else if(num == 1) {
-                ratio2.text = "${key} : ${value}%"
-                num++
-            }
-        }
+        ratio1.text = "%,d".format(RecommendList[p0].discountAmt.toInt())+"원할인"
 
         return view
     }

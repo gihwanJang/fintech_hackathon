@@ -15,6 +15,7 @@ import com.github.mikephil.charting.formatter.IndexAxisValueFormatter
 import com.github.mikephil.charting.formatter.PercentFormatter
 import com.github.mikephil.charting.interfaces.datasets.IBarDataSet
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import org.json.JSONArray
 
 class Stock : AppCompatActivity() {
     private lateinit var pieChart: PieChart
@@ -25,7 +26,7 @@ class Stock : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_stock)
-
+        getStockList()
         pieChart = findViewById(R.id.pieChart3)
         initPieChart()
         setDataToPieChart()
@@ -76,20 +77,22 @@ class Stock : AppCompatActivity() {
     private fun setDataToPieChart() {
         pieChart.setUsePercentValues(true)
         val dataEntries = ArrayList<PieEntry>()
-        dataEntries.add(PieEntry(30f, "삼전"))
-        dataEntries.add(PieEntry(30f, "현대"))
-        dataEntries.add(PieEntry(40f, "기아"))
+        val map:HashMap<String,Int> = getStockList()
+        for((k,v) in map)
+            dataEntries.add(PieEntry(v.toFloat(),k))
 
         val colors: ArrayList<Int> = ArrayList()
         colors.add(Color.parseColor("#4DD0E1"))
         colors.add(Color.parseColor("#FFF176"))
         colors.add(Color.parseColor("#FF8A65"))
+        colors.add(Color.parseColor("#74b9ff"))
+        colors.add(Color.parseColor("#a29bfe"))
 
         val dataSet = PieDataSet(dataEntries, "")
         val data = PieData(dataSet)
 
         data.setValueFormatter(PercentFormatter())
-        dataSet.sliceSpace = 3f
+        dataSet.sliceSpace = 2f
         dataSet.colors = colors
         pieChart.data = data
         data.setValueTextSize(15f)
@@ -194,5 +197,20 @@ class Stock : AppCompatActivity() {
             }
             barChart.invalidate()
         }
+    }
+    fun getStockList(): HashMap<String, Int> {
+        val jsonString = assets.open("stock.json").reader().readText();
+
+        val stockAmt = HashMap<String, Int>()
+        val jObject = JSONArray(jsonString)
+        for (i in 0 until jObject.length()) {
+            val obj = jObject.getJSONObject(i)
+            val name = obj.getString("name")
+            val price = obj.getInt("price")
+            val count = obj.getInt("count")
+            stockAmt[name] = price * count
+            println(price*count)
+        }
+        return stockAmt
     }
 }
