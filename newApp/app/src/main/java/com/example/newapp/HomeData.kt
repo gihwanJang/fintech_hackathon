@@ -11,3 +11,10 @@ class resList(
     val tranTime:String,
     val tranAmt:Int,
 )
+
+class CardList(
+    val name:String,
+    val company:String,
+    val fee:String,
+    val sortratio:MutableMap<String,Double>
+)

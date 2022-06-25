@@ -34,8 +34,8 @@ class ListDataAdapter(val context: Context?, val DataList: ArrayList<resList>): 
         purchaseDate.text = data.tranDate
         purchaseMenu.text = data.printedContent
         cardType.text = data.tranType
-        withDrawl.text = data.tranAmt.toString()
-        balance.text = data.afterBalanceAmt.toString()
+        withDrawl.text = "%,d".format(data.tranAmt)
+        balance.text = "%,d".format(data.afterBalanceAmt)
 
         return view
     }

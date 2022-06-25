@@ -48,7 +48,7 @@ class Account : AppCompatActivity() {
         val resList = JSONArray(getData(position))
         val resListData = arrayListOf<resList>()
 
-        for(i in 0 until resList.length()){
+        for(i in resList.length() -1 downTo 0){
 
             val item = resList.getJSONObject(i)
 

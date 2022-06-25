@@ -30,7 +30,7 @@ class HomeDataAdapter(val context: Context?, val DataList: ArrayList<HomeData>):
         val data = DataList[p0]
 
         bankName.text = data.bankName
-        balAmount.text = data.balAmount.toString()
+        balAmount.text = "%,d".format(data.balAmount)
         accountNum.text = data.accountNumber
 
         return view
