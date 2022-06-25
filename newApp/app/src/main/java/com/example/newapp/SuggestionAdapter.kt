@@ -27,12 +27,27 @@ class SuggestionAdapter(val context: Context?, val RecommendList: List<CardList>
         val ratio1 = view.findViewById<TextView>(R.id.ratio1)
         val company = view.findViewById<TextView>(R.id.company)
         val fee = view.findViewById<TextView>(R.id.fee)
-
+        val benefits = view.findViewById<TextView>(R.id.textView3)
+        val benefitsValue = view.findViewById<TextView>(R.id.textView9)
         recommendCard.text = RecommendList[p0].name
         fee.text = "연회비"+RecommendList[p0].fee
         company.text = RecommendList[p0].company
-
         ratio1.text = "%,d".format(RecommendList[p0].discountAmt.toInt())+"원할인"
+
+        var num = 0;
+
+        for((key,value) in RecommendList[p0].sortratio){
+            if(num == 0) {
+                benefits.text = "${key} : ${value}%"
+                num++
+            }else if(num == 1) {
+                benefitsValue.text = "${key} : ${value}%"
+                num++
+            }else if(num == 2){
+                benefitsValue.text = "${key} : ${value}%"
+                num++
+            }
+        }
 
         return view
     }

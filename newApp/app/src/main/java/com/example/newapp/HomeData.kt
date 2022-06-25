@@ -26,3 +26,8 @@ class category(
     val name:String,
     val content:ArrayList<String>
 )
+
+class news(
+    val title:String,
+    val content: String
+)

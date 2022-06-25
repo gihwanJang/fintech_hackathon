@@ -5,6 +5,8 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ListView
+import android.widget.TextView
 import com.github.mikephil.charting.animation.Easing
 import com.github.mikephil.charting.charts.HorizontalBarChart
 import com.github.mikephil.charting.charts.PieChart
@@ -59,7 +61,46 @@ class Stock : AppCompatActivity() {
             }
             true
         }
+
+        val totalMoney = findViewById<TextView>(R.id.total_money)
+        val investMoney = findViewById<TextView>(R.id.invest_total)
+        val saveMoney = findViewById<TextView>(R.id.save_money)
+
+        val saveTotal = 30000000
+
+        val investTotal = getTotalMoney()
+
+        investMoney.text = "%,d".format(investTotal)+"원"
+        saveMoney.text = "%,d".format(saveTotal)+"원"
+
+        totalMoney.text = "투자 총액 : "+"%,d".format(investTotal+saveTotal)+"원"
+
+
+        val investNews = findViewById<ListView>(R.id.invest_news)
+
+        val adapter = NewsAdapter(this,getNews())
+        investNews.adapter = adapter
+
     }
+
+    private fun getNews():ArrayList<news> {
+
+        val newsList = arrayListOf<news>()
+
+        val jsonObject = assets.open("newspaper.json").reader().readText()
+
+        val JsonArray = JSONArray(jsonObject);
+
+        for(i in 0 until JsonArray.length()-1){
+            val title = JsonArray.getJSONObject(i).getString("title")
+            val content = JsonArray.getJSONObject(i).getString("content")
+
+            newsList.add(news(title,content))
+        }
+
+        return newsList
+    }
+
     private fun initPieChart() {
         pieChart.setUsePercentValues(true)
         pieChart.description.text = ""
@@ -74,12 +115,26 @@ class Stock : AppCompatActivity() {
         pieChart.legend.isWordWrapEnabled = true
     }
 
+    private fun getTotalMoney():Int{
+
+        val map:HashMap<String,Int> = getStockList()
+        var total = 0;
+
+        for((k,v) in map){
+            total+=v
+        }
+
+        return total
+    }
+
     private fun setDataToPieChart() {
         pieChart.setUsePercentValues(true)
         val dataEntries = ArrayList<PieEntry>()
         val map:HashMap<String,Int> = getStockList()
+
         for((k,v) in map)
             dataEntries.add(PieEntry(v.toFloat(),k))
+
 
         val colors: ArrayList<Int> = ArrayList()
         colors.add(Color.parseColor("#4DD0E1"))

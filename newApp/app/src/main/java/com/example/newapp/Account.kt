@@ -74,7 +74,7 @@ class Account : AppCompatActivity() {
     }
     fun getData(position:Int):String {
 
-        val jsonString = assets.open("test1.json").reader().readText();
+        val jsonString = assets.open("transaction.json").reader().readText();
         val jObject = JSONArray(JSONObject(jsonString).getString("account"));
 
         val data = jObject.getJSONObject(position).getString("res_list");
@@ -83,7 +83,7 @@ class Account : AppCompatActivity() {
     }
 
     fun getTotalAmt(position:Int):String{
-        val jsonString = assets.open("test1.json").reader().readText();
+        val jsonString = assets.open("transaction.json").reader().readText();
         val jObject = JSONArray(JSONObject(jsonString).getString("account"));
 
         return jObject.getJSONObject(position).getString("balance_amt")

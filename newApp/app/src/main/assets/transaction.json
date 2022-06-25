@@ -17,7 +17,7 @@
             {
                 "tran_date": "2022-04-25",
                 "tran_type": "현금",
-                "after_balance_amt": 2643100,
+                "after_balance_amt": 2849400,
                 "inout_type": "입금",
                 "printed_content": "Foch",
                 "branchName": "",
@@ -27,7 +27,7 @@
             {
                 "tran_date": "2022-04-28",
                 "tran_type": "현금",
-                "after_balance_amt": 2644100,
+                "after_balance_amt": 2854400,
                 "inout_type": "입금",
                 "printed_content": "Foch",
                 "branchName": "",
@@ -37,7 +37,7 @@
             {
                 "tran_date": "2022-05-25",
                 "tran_type": "현금",
-                "after_balance_amt": 3497500,
+                "after_balance_amt": 3854400,
                 "inout_type": "입금",
                 "printed_content": "Foch",
                 "branchName": "",
@@ -47,7 +47,7 @@
             {
                 "tran_date": "2022-06-25",
                 "tran_type": "현금",
-                "after_balance_amt": 4339700,
+                "after_balance_amt": 4854400,
                 "inout_type": "입금",
                 "printed_content": "Foch",
                 "branchName": "",
@@ -57,7 +57,7 @@
             {
                 "tran_date": "2022-06-28",
                 "tran_type": "현금",
-                "after_balance_amt": 4339000,
+                "after_balance_amt": 4857400,
                 "inout_type": "입금",
                 "printed_content": "Foch",
                 "branchName": "",
@@ -65,7 +65,7 @@
                 "tran_amt": 3000
             }
         ],
-        "balance_amt": 4187700
+        "balance_amt":4857400
     },
     {
         "account_number": "310-757-550512",

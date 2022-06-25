@@ -17,7 +17,9 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/menu" />
+        app:menu="@menu/menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
     <ScrollView
         android:layout_width="0dp"
@@ -35,12 +37,14 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/total_money"
                 android:layout_width="320dp"
-                android:layout_height="150dp"
+                android:layout_height="100dp"
                 android:layout_margin="10dp"
                 android:layout_marginStart="10dp"
                 android:background="#FEF1F1F1"
+                android:textStyle="bold"
+                android:textSize="20sp"
                 android:elevation="20dp"
                 android:gravity="center"
                 android:text="TextView" />
@@ -52,7 +56,7 @@
 
                 <TextView
                     android:id="@+id/textView12"
-                    android:layout_width="117dp"
+                    android:layout_width="42dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="주식투자"
@@ -61,8 +65,8 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView13"
-                    android:layout_width="84dp"
+                    android:id="@+id/invest_total"
+                    android:layout_width="50dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:text="$"
@@ -95,7 +99,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView14"
+                    android:id="@+id/save_money"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -115,15 +119,28 @@
             </com.github.mikephil.charting.charts.HorizontalBarChart>
 
             <TextView
-                android:id="@+id/bestRateView"
-                android:layout_width="320dp"
-                android:layout_height="150dp"
-                android:layout_margin="10dp"
-                android:layout_marginStart="10dp"
-                android:background="#FEF1F1F1"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:text="소식"
+                android:textSize="16sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ListView
+                android:id="@+id/invest_news"
+                android:layout_width="318dp"
+                android:layout_height="110dp"
+                android:background="#EFEFEF"
                 android:elevation="20dp"
-                android:gravity="center"
-                android:text="TextView" />
+                tools:ignore="MissingConstraints">
+
+            </ListView>
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
 
         </LinearLayout>
     </ScrollView>

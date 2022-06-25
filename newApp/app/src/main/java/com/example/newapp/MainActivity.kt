@@ -138,7 +138,7 @@ class MainActivity : AppCompatActivity() {
         dataSet.sliceSpace = 1f
         dataSet.colors = colors
         pieChart.data = data
-        data.setValueTextSize(14f)
+        data.setValueTextSize(13f)
         pieChart.setExtraOffsets(5f, 10f, 5f, 5f)
         pieChart.animateY(1400, Easing.EaseInOutQuad)
         pieChart.holeRadius = 58f
@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity() {
         dataSet.sliceSpace = 1f
         dataSet.colors = colors
         pieChart2.data = data
-        data.setValueTextSize(14f)
+        data.setValueTextSize(13f)
         pieChart2.setExtraOffsets(5f, 10f, 5f, 5f)
         pieChart2.animateY(1400, Easing.EaseInOutQuad)
         pieChart2.holeRadius = 58f

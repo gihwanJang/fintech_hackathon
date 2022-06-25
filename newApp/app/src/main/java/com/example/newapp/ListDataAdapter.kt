@@ -28,6 +28,7 @@ class ListDataAdapter(val context: Context?, val DataList: ArrayList<resList>): 
         val cardType = view.findViewById<TextView>(R.id.cardType)
         val withDrawl = view.findViewById<TextView>(R.id.withDrawal)
         val balance = view.findViewById<TextView>(R.id.balance)
+        val state = view.findViewById<TextView>(R.id.textView2)
 
         val data = DataList[p0]
 
@@ -36,6 +37,7 @@ class ListDataAdapter(val context: Context?, val DataList: ArrayList<resList>): 
         cardType.text = data.tranType
         withDrawl.text = "%,d".format(data.tranAmt)
         balance.text = "%,d".format(data.afterBalanceAmt)
+        state.text = data.inoutType
 
         return view
     }
