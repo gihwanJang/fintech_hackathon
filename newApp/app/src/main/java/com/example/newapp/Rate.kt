@@ -5,6 +5,8 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
 import com.github.mikephil.charting.charts.BarChart
 import com.github.mikephil.charting.charts.HorizontalBarChart
 import com.github.mikephil.charting.components.Description
@@ -14,6 +16,8 @@ import com.github.mikephil.charting.components.YAxis
 import com.github.mikephil.charting.data.BarData
 import com.github.mikephil.charting.data.BarDataSet
 import com.github.mikephil.charting.data.BarEntry
+import com.github.mikephil.charting.formatter.IndexAxisValueFormatter
+import com.github.mikephil.charting.interfaces.datasets.IBarDataSet
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class Rate : AppCompatActivity() {
@@ -26,10 +30,20 @@ class Rate : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_rate)
 
+        val settingButton:Button = findViewById(R.id.rating_setting_button)
         barChart1 = findViewById(R.id.barChart1)
         barChart2 = findViewById(R.id.barChart2)
-        setRate(barChart1)
-        setRate(barChart2)
+        basicSetting()
+        setxAxis()
+        setLeftXaxis()
+        setRightXaxis()
+        createBarChart()
+
+        settingButton.setBackgroundColor(Color.WHITE)
+        settingButton.setOnClickListener {
+            val intent = Intent(this, SettingRate::class.java)
+            startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
+        }
 
         bn.setOnNavigationItemSelectedListener{
             when(it.itemId){
@@ -53,63 +67,143 @@ class Rate : AppCompatActivity() {
             true
         }
     }
-    private fun setRate(barChart: HorizontalBarChart) {
-        initBarChart(barChart)
-
-        barChart.setScaleEnabled(false)
-
-        val valueList = ArrayList<Double>()
-        val entries: ArrayList<BarEntry> = ArrayList()
-        val title = "사용비율"
-
-        for (i in 0..3) {
-            valueList.add(25.0)
+    private fun basicSetting() {
+        barChart1.apply {
+            description.isEnabled = false
+            setMaxVisibleValueCount(3)
+            setPinchZoom(false)
+            setDrawBarShadow(false)
+            setDrawGridBackground(false)
+            setDrawBorders(false)
+            legend.isEnabled = false
+            setTouchEnabled(false)
+            isDoubleTapToZoomEnabled = false
+            animateY(3000)
         }
-
-        for (i in 0 until valueList.size) {
-            val barEntry = BarEntry(i.toFloat(), valueList[i].toFloat())
-            entries.add(barEntry)
+        barChart2.apply {
+            description.isEnabled = false
+            setMaxVisibleValueCount(3)
+            setPinchZoom(false)
+            setDrawBarShadow(false)
+            setDrawGridBackground(false)
+            setDrawBorders(false)
+            legend.isEnabled = false
+            setTouchEnabled(false)
+            isDoubleTapToZoomEnabled = false
+            animateY(3000)
         }
-        val barDataSet = BarDataSet(entries, title)
-        val data = BarData(barDataSet)
-        barChart.data = data
-        barChart.invalidate()
     }
 
-    private fun initBarChart(barChart: BarChart) {
-        barChart.setDrawGridBackground(false)
-        barChart.setDrawBarShadow(false)
-        barChart.setDrawBorders(false)
+    private fun setxAxis() {
+        val xAxis1 = barChart1.xAxis
+        val xAxis2 = barChart2.xAxis
+        xAxis1.apply {
+            setDrawGridLines(false)
+            isEnabled = true
+            position = XAxis.XAxisPosition.BOTTOM
+            disableGridDashedLine()
+            setDrawAxisLine(false)
+        }
+        xAxis2.apply {
+            setDrawGridLines(false)
+            isEnabled = true
+            position = XAxis.XAxisPosition.BOTTOM
+            disableGridDashedLine()
+            setDrawAxisLine(false)
+        }
+    }
 
-        val description = Description()
-        description.setEnabled(false)
-        barChart.setDescription(description)
+    private fun setLeftXaxis() {
+        val leftXaxis1 = barChart1.axisLeft
+        val leftXaxis2 = barChart1.axisLeft
+        leftXaxis1.apply {
+            setDrawGridLines(false)
+            setDrawAxisLine(false)
+            isEnabled = false
+            setDrawLabels(false)
+        }
+        leftXaxis2.apply {
+            setDrawGridLines(false)
+            setDrawAxisLine(false)
+            isEnabled = false
+            setDrawLabels(false)
+        }
+    }
 
-        barChart.animateY(1000)
-        barChart.animateX(1000)
+    private fun setRightXaxis() {
+        val rightXaxis1 = barChart1.axisRight
+        val rightXaxis2 = barChart2.axisRight
+        rightXaxis1.apply {
+            setDrawGridLines(false)
+            setDrawAxisLine(false)
+            isEnabled = false
+            setDrawLabels(false)
+        }
+        rightXaxis2.apply {
+            setDrawGridLines(false)
+            setDrawAxisLine(false)
+            isEnabled = false
+            setDrawLabels(false)
+        }
+    }
+    private fun createBarChart() {
+        val values = ArrayList<BarEntry>()
+        val type = ArrayList<String>()
+        val colorList = ArrayList<Int>()
+        val set : BarDataSet
 
-        val xAxis: XAxis = barChart.getXAxis()
-        xAxis.position = XAxis.XAxisPosition.BOTTOM
-        xAxis.granularity = 1f
-        xAxis.textColor = Color.RED
-        xAxis.setDrawAxisLine(false)
-        xAxis.setDrawGridLines(false)
+        values.add(BarEntry(1.0f, 20.0f))
+        values.add(BarEntry(2.0f, 30.0f))
+        values.add(BarEntry(3.0f, 40.0f))
 
-        val leftAxis: YAxis = barChart.getAxisLeft()
-        leftAxis.setDrawAxisLine(false)
-        leftAxis.textColor = Color.RED
+        type.add(" ")
+        type.add("What")
+        type.add("Who")
+        type.add("How")
 
-        val rightAxis: YAxis = barChart.getAxisRight()
-        rightAxis.setDrawAxisLine(false)
-        rightAxis.textColor = Color.RED
+        colorList.add(Color.parseColor("#4DD0E1"))
+        colorList.add(Color.parseColor("#FFF176"))
+        colorList.add(Color.parseColor("#FF8A65"))
 
-        val legend: Legend = barChart.getLegend()
-        legend.form = Legend.LegendForm.LINE
-        legend.textSize = 11f
-        legend.textColor = Color.BLACK
-        legend.verticalAlignment = Legend.LegendVerticalAlignment.TOP
-        legend.horizontalAlignment = Legend.LegendHorizontalAlignment.CENTER
-        legend.orientation = Legend.LegendOrientation.HORIZONTAL
-        legend.setDrawInside(false)
+        if (barChart1.data != null && barChart1.data.dataSetCount > 1) {
+            val chartData1 = barChart1.data
+            val chartData2 = barChart2.data
+            set = chartData1?.getDataSetByIndex(0) as BarDataSet
+            set.values = values
+            chartData1.notifyDataChanged()
+            chartData2.notifyDataChanged()
+            barChart1.notifyDataSetChanged()
+            barChart2.notifyDataSetChanged()
+        } else {
+            set = BarDataSet(values, " ")
+            set.colors = colorList
+            set.setDrawValues(true)
+
+            val dataSets = ArrayList<IBarDataSet>()
+            dataSets.add(set)
+
+            val data = BarData(dataSets)
+            barChart1.data = data
+            barChart1.setVisibleXRange(1.0f,3.0f)
+            barChart1.setFitBars(true)
+            barChart2.data = data
+            barChart2.setVisibleXRange(1.0f,3.0f)
+            barChart2.setFitBars(true)
+
+            val xAxis1 = barChart1.xAxis
+            xAxis1.apply {
+                granularity = 1f
+                isGranularityEnabled = true
+                valueFormatter = IndexAxisValueFormatter(type)
+            }
+            val xAxis2 = barChart2.xAxis
+            xAxis2.apply {
+                granularity = 1f
+                isGranularityEnabled = true
+                valueFormatter = IndexAxisValueFormatter(type)
+            }
+            barChart1.invalidate()
+            barChart2.invalidate()
+        }
     }
 }
